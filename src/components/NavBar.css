@@ -1,0 +1,27 @@
+*{
+    border: red;
+    border-style: dashed;
+    border-width: 1px;
+}
+
+.nav-bar{
+    display: flex;
+    height: 20%;
+    padding-left: 2%;
+    padding-right: 2%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-home{
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.nav-links{
+    width: 150px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+

@@ -1,8 +1,18 @@
-
+import "./NavBar.css";
+import { link  } from "react-router-dom";
 
 function NavBar(){
     return(
-        <h1> Jingxiang Mo </h1>
+        <div className="nav-bar">
+            <p className="nav-home"> Jingxiang Mo </p>
+            <div className="nav-links">
+                <p> Projects </p>
+                <p> Writings </p>
+                
+            </div>
+    
+        </div>
+
     );
 }
 
