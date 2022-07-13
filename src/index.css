@@ -1,5 +1,15 @@
+ 
+* {
+    /* for debugging */
+    border-style: dotted;
+    border-color: red;
+    border-width: 1px;
+}
+
+/* global changes */
 body {
-  margin: 0;
+  margin: 0 20%; 
   font-family:-apple-system, BlinkMacSystemFont, sans-serif;
+
 }
 

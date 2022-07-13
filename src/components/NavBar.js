@@ -8,7 +8,6 @@ function NavBar(){
             <div className="nav-links">
                 <p> Projects </p>
                 <p> Writings </p>
-                
             </div>
     
         </div>

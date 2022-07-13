@@ -1,17 +1,36 @@
+import "./LandingPage.css";
 import NavBar from "../components/NavBar";
+import logo from "../images/logo-jxm.svg";
+import AboutCard from "../components/AboutCard";
 
 function LandingPage(){
     return(
         <>
             <NavBar/>
 
-            <p> Hi, I'm jingxiang Mo</p>
+            <div className="about-block">
+                <img className="logo-img" src={logo} alt="logo"/>
+                <div className="about-writing-block">
+                    <h2> Hi, I'm jingxiang Mo</h2>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed urna, magna tristique bibendum non nullam dolor.</p>
+                </div>
+            </div>
 
-            <h1> Currently </h1>
 
-            <h1> Previously </h1>
+            <div className="story-block">
+                <div>
+                    <h1> Currently </h1>
+                    <AboutCard/>
+                </div>
 
-            <h1> My Story </h1>
+
+                <div>
+                    <h1> Previously </h1>
+                </div>
+
+            </div>
+
+
 
             <h1> Contact Me </h1>
 
