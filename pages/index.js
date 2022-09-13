@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.scss'
+import CursorProvider from '../cursor/Provider';
 
 export default function Home() {
   return (
