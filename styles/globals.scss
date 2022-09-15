@@ -1,23 +1,22 @@
 // custom font
-@font-face{
+@font-face {
   font-family: "Bebas Neue Pro";
-  src: url('../public/font/Bebas\ Neue\ Pro\ Regular.otf');
+  src: url("../public/font/Bebas\ Neue\ Pro\ Regular.otf");
   font-weight: normal;
   font-weight: 400;
 }
-
 
 html,
 body {
   padding: 0;
   margin: 0;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
 
   // cursor style
-  cursor: crosshair; 
+  cursor: crosshair;
 
   // font style
-  font-family: 'Bebas Neue Pro';
+  font-family: "Bebas Neue Pro";
   letter-spacing: 1.61803px;
   color: #222222;
 }
@@ -31,13 +30,13 @@ a {
   box-sizing: border-box;
 }
 
-/* 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-} */
+
+// @media (prefers-color-scheme: dark) {
+//   html {
+//     color-scheme: dark;
+//   }
+//   body {
+//     color: white;
+//     background: black;
+//   }
+// }

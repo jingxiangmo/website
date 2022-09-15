@@ -28,9 +28,9 @@
   font-size: 8rem;
 }
 
-.title u{
+.title u {
   text-decoration-line: underline;
-  text-underline-offset: 1.2rem;
+  text-underline-offset: 1.3rem;
   text-decoration-thickness: 0.8rem;
 }
 
@@ -39,24 +39,26 @@
   text-align: left;
 }
 
-.typewriter{
+.typewriter {
   // typing animation
   overflow: hidden; // ensure content is not revealed until the animation
   white-space: nowrap; /* Keeps the content on a single line */
-  animation: 
-    typing 2s steps(40, end),
-    blink-caret .75s step-end infinite;
+  animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
 /* The typing effect */
 @keyframes typing {
-from { width: 0 }
-to { width: 100% }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 .description {
   @extend .typewriter;
-  
+
   // font
   margin: 2rem 0;
   line-height: 1.5;
@@ -73,7 +75,6 @@ to { width: 100% }
   color: #0070f3;
   border-color: #0070f3;
 }
-
 
 .grid {
   display: flex;
@@ -103,28 +104,25 @@ to { width: 100% }
 }
 
 .card h2 {
-  @extend .typewriter;
-
   margin: 0 0 1rem 0;
   font-size: 2rem;
 }
 
 .card p {
-  // @extend .typewriter;
-
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
 }
 
-// Responsive Design
-@media (max-width: 600px) {
+//============[ RESPONSIVE DESIGN ]============//
+@media (max-width: 1200px) {
   .main {
+    max-height: 100vh;
     width: 100%;
     flex-direction: column;
-  }  
+  }
 
-  .heading{
+  .heading {
     max-width: 500px;
     display: flex;
     flex-direction: column;
@@ -134,17 +132,23 @@ to { width: 100% }
     font-size: 4rem;
   }
 
-  .description{
+  .title u {
+    text-decoration-line: underline;
+    text-underline-offset: 1.1rem;
+    text-decoration-thickness: 0.5rem;
+  }
+
+  .description {
     font-size: 1.19rem;
   }
 
   .grid {
     width: 100%;
     flex-direction: column;
-  }  
+  }
 }
 
-// Dark theme
+//============[ THEME ]============//
 @media (prefers-color-scheme: dark) {
   .card,
   .footer {
