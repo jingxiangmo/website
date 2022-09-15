@@ -4,7 +4,7 @@ import { attributes, react as HomeContent } from '../content/posts/home.md';
 
 export default class Home extends Component {
   render() {
-    let { title, cats } = attributes;
+    let title = attributes;
     return (
       <>
         <Head>
