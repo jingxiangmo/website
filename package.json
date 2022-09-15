@@ -9,14 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "frontmatter-markdown-loader": "^3.7.0",
     "next": "12.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sass": "^1.54.9"
   },
   "devDependencies": {
+    "@babel/core": "^7.19.1",
+    "@babel/preset-react": "^7.18.6",
     "eslint": "8.23.0",
-    "eslint-config-next": "12.3.0"
+    "eslint-config-next": "12.3.0",
+    "frontmatter-markdown-loader": "^3.7.0"
   }
 }
