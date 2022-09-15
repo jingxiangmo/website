@@ -55,7 +55,25 @@
   text-align: left;
 }
 
+.typewriter{
+  // typing animation
+  overflow: hidden; // ensure content is not revealed until the animation
+  white-space: nowrap; /* Keeps the content on a single line */
+  animation: 
+    typing 2s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+from { width: 0 }
+to { width: 100% }
+}
+
 .description {
+  @extend .typewriter;
+  
+  // font
   margin: 2rem 0;
   line-height: 1.5;
   font-size: 2rem;
@@ -101,11 +119,15 @@
 }
 
 .card h2 {
+  @extend .typewriter;
+
   margin: 0 0 1rem 0;
   font-size: 2rem;
 }
 
 .card p {
+  // @extend .typewriter;
+
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
