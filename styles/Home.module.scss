@@ -11,22 +11,6 @@
   align-items: center;
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
 .title a {
   color: #0070f3;
   text-decoration: none;
@@ -133,13 +117,32 @@ to { width: 100% }
   line-height: 1.5;
 }
 
+// Responsive Design
 @media (max-width: 600px) {
+  .heading{
+    width: 100%;
+  }
+
+  .title {
+    font-size: 4rem;
+  }
+
+  .description{
+    font-size: 1.19rem;
+  }
+
+  .main {
+    width: 100%;
+    flex-direction: column;
+  }  
+
   .grid {
     width: 100%;
     flex-direction: column;
-  }
+  }  
 }
 
+// Dark theme
 @media (prefers-color-scheme: dark) {
   .card,
   .footer {

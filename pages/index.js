@@ -16,7 +16,7 @@ export default function Home() {
       {/*==========[ MAIN ]============*/}
       <main className={styles.main}>
 
-        <div>
+        <div className={styles.heading}>
           <h1 className={styles.title}> <u>JINGX</u>IANG MO </h1>
 
           <p className={styles.description}> 
@@ -26,18 +26,18 @@ export default function Home() {
 
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
+          <a href="" className={styles.card}>
             <h2>posts &rarr;</h2>
             <p> essays, book notes, and ideas </p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <a href="" className={styles.card}>
             <h2>projects &rarr;</h2>
             <p> softwares, designs, and robots </p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href=""
             className={styles.card}
           >
             <h2>contact &rarr;</h2>
@@ -46,21 +46,6 @@ export default function Home() {
 
         </div>
       </main>
-
-
-      {/*==========[ FOOTER ]============*/}
-      {/* <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer> */}
     </div>
   )
 }
