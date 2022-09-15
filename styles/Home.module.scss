@@ -119,8 +119,15 @@ to { width: 100% }
 
 // Responsive Design
 @media (max-width: 600px) {
-  .heading{
+  .main {
     width: 100%;
+    flex-direction: column;
+  }  
+
+  .heading{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
   }
 
   .title {
@@ -130,11 +137,6 @@ to { width: 100% }
   .description{
     font-size: 1.19rem;
   }
-
-  .main {
-    width: 100%;
-    flex-direction: column;
-  }  
 
   .grid {
     width: 100%;
