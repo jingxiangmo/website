@@ -26,22 +26,22 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
-          <Link href={"/blog"}>
-            <a href="" className={styles.card}>
-              <h2>posts &rarr;</h2>
+          <Link href={"/writings"}>
+            <a className={styles.card}>
+              <h2>writings &rarr;</h2>
               <p> essays, book notes, and ideas </p>
             </a>
           </Link>
 
           <Link href={"/projects"}>
-            <a href="" className={styles.card}>
+            <a className={styles.card}>
               <h2>projects &rarr;</h2>
               <p> softwares, designs, and robots </p>
             </a>
           </Link>
 
           <Link href={"/contact"}>
-            <a href="" className={styles.card}>
+            <a className={styles.card}>
               <h2>contact &rarr;</h2>
               <p> email, resume, and github </p>
             </a>
