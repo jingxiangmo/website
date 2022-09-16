@@ -40,9 +40,9 @@ export default function Home() {
             </a>
           </Link>
 
-          <Link href={"/contact"}>
+          <Link href={"/contacts"}>
             <a className={styles.card}>
-              <h2>contact &rarr;</h2>
+              <h2>contacts &rarr;</h2>
               <p> email, resume, and github </p>
             </a>
           </Link>
