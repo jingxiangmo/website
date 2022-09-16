@@ -2,11 +2,15 @@ backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
 media_folder: public/img
-public_folder: img
+public_folder: public
+slug:
+  encoding: 'ascii'
+  clean_accents: true
+  sanitize_replacement: '_'
 collections:
   - label: 'Blog'
     name: 'blog'
-    folder: 'content/blogPosts'
+    folder: 'content/posts'
     create: true
     slug: '{{year}}-{{month}}-{{day}}_{{slug}}'
     fields:
