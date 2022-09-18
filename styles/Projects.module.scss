@@ -1,0 +1,13 @@
+.container {
+    padding: 0 2rem;
+  }
+  
+  .main {
+    min-height: 90vh; // change the vertical shift
+    padding: 4rem 0;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

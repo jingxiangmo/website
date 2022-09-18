@@ -1,10 +1,9 @@
 import React, { Component } from "react";
-
 import Link from "next/link";
+import styles from "../../styles/Writings.module.scss";
+import NavBar from "../../components/NavBar";
 
-const BLOG_POSTS_PATH = "../../content/posts";
-
-const importBlogPosts = async () => {
+const importPosts = async () => {
   const markdownFiles = require
     .context("../../content/posts", false, /\.md$/)
     .keys()
@@ -19,33 +18,32 @@ const importBlogPosts = async () => {
 
 export default class Blog extends Component {
   static async getInitialProps() {
-    const postsList = await importBlogPosts();
+    const postsList = await importPosts();
 
     return { postsList };
   }
+
   render() {
     const { postsList } = this.props;
+
     return (
-      <div className="blog-list">
-        {postsList.map((post) => {
-          return (
-            <Link href={`writings/post/${post.slug}`}>
-              <a>
-                <h2>{post.attributes.title}</h2>
-              </a>
-            </Link>
-          );
-        })}
-        <style jsx>{`
-          .blog-list a {
-            display: block;
-            text-align: center;
-          }
-          .blog-list img {
-            max-width: 100%;
-            max-height: 300px;
-          }
-        `}</style>
+      <div className={styles.container}>
+   
+
+        <main className={styles.main}>
+          <NavBar />
+          <div className={styles.writings_list}>
+            {postsList.map((post) => {
+              return (
+                <Link href={`writings/post/${post.slug}`}>
+                  <a>
+                    <h2>{post.attributes.title}</h2>
+                  </a>
+                </Link>
+              );
+            })}
+          </div>
+        </main>
       </div>
     );
   }

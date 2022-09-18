@@ -14,6 +14,7 @@ class Post extends Component {
 
     const {
       html,
+      attributes: { date },
       attributes: { title },
     } = this.props.blogpost.default;
 
@@ -21,6 +22,7 @@ class Post extends Component {
       <>
         <article>
           <h1>{title}</h1>
+          <p>{date}</p>
           <div dangerouslySetInnerHTML={{ __html: html }} />
         </article>
         <style jsx>{`

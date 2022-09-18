@@ -1,0 +1,27 @@
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.card {
+  margin: 1rem;
+  padding: 0.5rem;
+  color: inherit;
+  border: 2px solid #D9D9D9;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #2978b5;
+  border-color: #2978b5;
+}
+
+.card h2 {
+  margin: 0;
+  font-size: 1.3rem;
+}
