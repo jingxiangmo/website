@@ -17,7 +17,7 @@ function NavBar (props) {
         </a>
       </Link>
 
-      <Link href={props.titleThree === 'home' ? '/' : props.titleThree}>
+      <Link href={props.titleThree === 'homepage' ? '/' : props.titleThree}>
         <a className={styles.card}>
           <h2>{props.titleThree}  &rarr;</h2>
         </a>
