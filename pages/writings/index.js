@@ -28,10 +28,13 @@ export default class Blog extends Component {
 
     return (
       <div className={styles.container}>
-   
-
         <main className={styles.main}>
-          <NavBar />
+          <NavBar
+            titleOne="projects"
+            titleTwo="contacts"
+            titleThree="homepage"
+          />
+
           <div className={styles.writings_list}>
             {postsList.map((post) => {
               return (

@@ -1,22 +1,23 @@
-import React, { Component } from "react";
+import React, { Component } from 'react'
 
 class Post extends Component {
-  static async getInitialProps({ query }) {
-    const { slug } = query;
+  static async getInitialProps ({ query }) {
+    const { slug } = query
     const blogpost = await import(`../../../content/posts/${slug}.md`).catch(
       (error) => null
-    );
+    )
 
-    return { blogpost };
+    return { blogpost }
   }
-  render() {
-    if (!this.props.blogpost) return <div>not found</div>;
+
+  render () {
+    if (!this.props.blogpost) return <div>not found</div>
 
     const {
       html,
       attributes: { date },
-      attributes: { title },
-    } = this.props.blogpost.default;
+      attributes: { title }
+    } = this.props.blogpost.default
 
     return (
       <>
@@ -32,10 +33,11 @@ class Post extends Component {
           h1 {
             text-align: center;
           }
-        `}</style>
+        `}
+        </style>
       </>
-    );
+    )
   }
 }
 
-export default Post;
+export default Post
