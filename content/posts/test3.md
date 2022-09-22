@@ -1,5 +1,5 @@
 ---
-title: Test 3
+title: Essay 3
 date: 2019-03-17
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl nec
