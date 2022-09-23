@@ -16,5 +16,5 @@ collections:
     slug: '{{slug}}'
     fields: 
       - { label: 'Title', name: 'title', widget: 'string', required: true }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime', required: true }
+      - { label: 'Publish Date', name: 'date', required: true } // changed from 'datetime' to 'date'
       - { label: 'Body', name: 'body', widget: 'markdown', required: true }
