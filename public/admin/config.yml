@@ -8,12 +8,13 @@ slug:
   clean_accents: true
   sanitize_replacement: '_'
 collections:
-  - label: 'Blog'
-    name: 'blog'
+  - label: 'Post'
+    name: 'post'
+    date_format: "DD.MM.YYYY"
     folder: 'content/posts'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}_{{slug}}'
-    fields:
+    slug: '{{slug}}'
+    fields: 
       - { label: 'Title', name: 'title', widget: 'string', required: true }
       - { label: 'Publish Date', name: 'date', widget: 'datetime', required: true }
       - { label: 'Body', name: 'body', widget: 'markdown', required: true }
