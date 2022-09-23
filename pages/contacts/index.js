@@ -5,8 +5,14 @@ export default function Contacts() {
 
     <div className={styles.container}>
         <main className={styles.main}>
+        <h1>
+            contact me
+        </h1>
 
-        
+        <h2>
+            linkedin
+        </h2>
+
 
 
 

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import styles from "../../../styles/Writings.module.scss";
-import NavBar from "../../../components/NavBar";
 
 class Post extends Component {
   static async getInitialProps({ query }) {
@@ -29,7 +28,11 @@ class Post extends Component {
           <article className={styles.article}>
             <h1 className={styles.article_title}>{title}</h1>
             <p className={styles.article_date}>{date}</p>
+
+            <p>
             <div dangerouslySetInnerHTML={{ __html: html }} />
+
+            </p>
           </article>
         </main>
       </>
