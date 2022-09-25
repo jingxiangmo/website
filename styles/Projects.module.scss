@@ -1,19 +1,7 @@
-.container {
-  padding: 0 2rem;
-}
-
-.main {
-  min-height: 90vh; // change the vertical shift
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .cards_grid {
+  overflow-y: auto;
   display: grid;
-    align-items: center;
+  align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   max-width: 500px;

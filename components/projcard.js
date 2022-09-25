@@ -1,5 +1,5 @@
 
-import styles from "./ProjectCard.module.scss";
+import styles from "./projcard.module.scss";
 
 export default function ProjectCard({props}) {
   return (

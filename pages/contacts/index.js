@@ -13,9 +13,6 @@ export default function Contacts() {
             linkedin
         </h2>
 
-
-
-
     </main>
     </div>
     

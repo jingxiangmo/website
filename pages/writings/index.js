@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Link from "next/link";
 import styles from "../../styles/Writings.module.scss";
-import NavBar from "../../components/NavBar";
+import Sidebar from "../../components/sidebar";
 
 const importPosts = async () => {
   const markdownFiles = require
@@ -29,12 +29,6 @@ export default class Blog extends Component {
     return (
       <div className={styles.container}>
         <main className={styles.main}>
-          <NavBar
-            titleOne="projects"
-            titleTwo="contacts"
-            titleThree="homepage"
-          />
-
           <div className={styles.writings_list}>
             {postsList.map((post) => {
               return (

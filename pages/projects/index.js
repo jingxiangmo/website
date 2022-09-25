@@ -1,12 +1,11 @@
 import styles from "../../styles/Projects.module.scss";
-import ProjectCard from "../../components/ProjectCard";
-import NavBar from "../../components/NavBar";
+import ProjectCard from "../../components/projcard";
 
 export default function Projects() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        <NavBar titleOne="writings" titleTwo="projects" titleThree="contacts" />
+        {/* <NavBar titleOne="writings" titleTwo="projects" titleThree="contacts" /> */}
 
         <div className={styles.cards_grid}>
           <ProjectCard name="Streamline POS" description="" link="" />
