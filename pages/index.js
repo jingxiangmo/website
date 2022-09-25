@@ -5,14 +5,13 @@ import Link from 'next/link'
 export default function Home () {
   return (
     <div className={styles.container}>
-      {/* ==========[ HEADER ]============ */}
+
       <Head>
         <title>Jingxiang Mo</title>
         <meta name='Jingxiang Mo' content="jingxiang mo's website" />
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      {/* ==========[ MAIN ]============ */}
       <main className={styles.main}>
         <div className={styles.heading}>
           <h1 className={styles.title}>

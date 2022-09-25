@@ -1,14 +1,12 @@
+import styles from './projcard.module.scss'
 
-import styles from "./projcard.module.scss";
-
-export default function ProjectCard({props}) {
+export default function ProjectCard ({ props }) {
   return (
     <card className={styles.card}>
-        <img src="" />
-        <h1> Streamline </h1>
-        <p> POS system  </p>
-        <a href="link">  </a>
+      <img src='' />
+      <h1> Streamline </h1>
+      <p> POS system </p>
+      <a href='link'> </a>
     </card>
- 
-  );
+  )
 }

@@ -1,13 +1,12 @@
 .container {
-    display: flex;
-    padding: 0rem 22rem 0rem 22rem;
-  }
+  display: flex;
+  padding: 0rem 22rem 0rem 22rem;
+}
 
-  .main {
-    min-height: 90vh; // change the vertical shift
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
+.main {
+  min-height: 90vh;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
