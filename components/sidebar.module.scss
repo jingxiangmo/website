@@ -1,0 +1,41 @@
+.container {
+  min-height: 90vh; // change the vertical shift
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  max-height: 500px;
+}
+
+.card {
+  margin: 0rem 1rem 1rem 0rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 2px solid #d9d9d9;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  width: 300px;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #2978b5;
+  border-color: #2978b5;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 2rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}

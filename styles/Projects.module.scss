@@ -1,19 +1,18 @@
-.container {
-  padding: 0 2rem;
+.overflow_container {
+  // remove scrollbar
+  overflow: auto;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  height: 50vh;
 }
-
-.main {
-  min-height: 90vh; // change the vertical shift
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+// remove scrollbar for chrome
+.overflow_container::-webkit-scrollbar {
+  display: none;
 }
 
 .cards_grid {
-  display: grid;
-    align-items: center;
+  display: flex;
+  align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   max-width: 500px;

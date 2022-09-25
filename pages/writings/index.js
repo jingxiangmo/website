@@ -1,40 +1,34 @@
-import React, { Component } from "react";
-import Link from "next/link";
-import styles from "../../styles/Writings.module.scss";
-import NavBar from "../../components/NavBar";
+import React, { Component } from 'react'
+import Link from 'next/link'
+import styles from '../../styles/Writings.module.scss'
+import Sidebar from '../../components/sidebar'
 
 const importPosts = async () => {
   const markdownFiles = require
-    .context("../../content/posts", false, /\.md$/)
+    .context('../../content/posts', false, /\.md$/)
     .keys()
-    .map((relativePath) => relativePath.substring(2));
+    .map((relativePath) => relativePath.substring(2))
   return Promise.all(
     markdownFiles.map(async (path) => {
-      const markdown = await import(`../../content/posts/${path}`);
-      return { ...markdown, slug: path.substring(0, path.length - 3) };
+      const markdown = await import(`../../content/posts/${path}`)
+      return { ...markdown, slug: path.substring(0, path.length - 3) }
     })
-  );
-};
+  )
+}
 
 export default class Blog extends Component {
-  static async getInitialProps() {
-    const postsList = await importPosts();
+  static async getInitialProps () {
+    const postsList = await importPosts()
 
-    return { postsList };
+    return { postsList }
   }
 
-  render() {
-    const { postsList } = this.props;
+  render () {
+    const { postsList } = this.props
 
     return (
-      <div className={styles.container}>
+      <div className={styles.overflow_container}>
         <main className={styles.main}>
-          <NavBar
-            titleOne="projects"
-            titleTwo="contacts"
-            titleThree="homepage"
-          />
-
           <div className={styles.writings_list}>
             {postsList.map((post) => {
               return (
@@ -43,11 +37,11 @@ export default class Blog extends Component {
                     <h2>{post.attributes.title}</h2>
                   </a>
                 </Link>
-              );
+              )
             })}
           </div>
         </main>
       </div>
-    );
+    )
   }
 }

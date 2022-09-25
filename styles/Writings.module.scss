@@ -1,38 +1,19 @@
-.container {
-    padding: 0 2rem;
-  }
-  
-  .main {
-    min-height: 90vh; // change the vertical shift
-    padding: 4rem 0;
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .writings_list{
-        width: 500px;
-        margin: 8rem;
-  }
-
-.article{
+.article {
   min-height: 90vh;
   padding: 6rem;
   flex: 1;
   display: flex;
   align-items: center;
-  flex-direction: column;   
-  }
-  
-  .article_title{
-    font-size: 3rem;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
-  }
-  
-  .article_date{
-    font-size: 0.8rem;
-    color: #666;
-  }
-  
+  flex-direction: column;
+}
+
+.article_title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.article_date {
+  font-size: 0.8rem;
+  color: #666;
+}
