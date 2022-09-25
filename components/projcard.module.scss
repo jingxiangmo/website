@@ -27,3 +27,15 @@
   font-size: 1.25rem;
   line-height: 1.5;
 }
+
+
+
+//===[ RESPONSIVE DESIGN ]===//
+@media (max-width: 1200px) {
+  .card{
+    margin: 0rem 0rem 1rem 0rem;  
+    width: 300px;
+  }
+  
+
+}

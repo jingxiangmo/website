@@ -6,12 +6,14 @@ export default function Projects () {
     <div className={styles.overflow_container}>
       <main className={styles.main}>
         <div className={styles.cards_grid}>
-          <ProjectCard name='Streamline POS' description='' link='' />
-          <ProjectCard name='Endevr' description='' link='' />
-          <ProjectCard name='Hover' description='' link='' />
-          <ProjectCard name='Streamline POS' description='' link='' />
-          <ProjectCard name='Endevr' description='' link='' />
-          <ProjectCard name='Hover' description='' link='' />
+          <ProjectCard img='' name='Streamline POS' description='restaurant menu and payment solution' link='' />
+          <ProjectCard img='' name='Endevr' description='' link='' />
+          <ProjectCard img='' name='Hover Robot' description='' link='' />
+          <ProjectCard img='' name='Better Me' description='' link='' />
+          <ProjectCard img='' name='MUS Website' description='' link='' />
+          <ProjectCard img='' name='Art Portfolio' description='' link='' />
+
+       
         </div>
       </main>
     </div>

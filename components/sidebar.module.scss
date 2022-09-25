@@ -39,3 +39,21 @@
   font-size: 1.25rem;
   line-height: 1.5;
 }
+
+
+//===[ RESPONSIVE DESIGN ]===//
+@media (max-width: 1200px) {
+  .container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0rem 0rem 0rem 0rem;
+      min-height: 40vh;
+
+    }
+
+    .card{
+      margin: 0rem 0rem 1rem 0rem;  
+      width: 300px;
+    }
+}
