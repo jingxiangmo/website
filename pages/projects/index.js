@@ -4,8 +4,7 @@ import ProjectCard from "../../components/projcard";
 export default function Projects() {
   return (
     <div className={styles.container}>
-      <main className={styles.main}>
-        {/* <NavBar titleOne="writings" titleTwo="projects" titleThree="contacts" /> */}
+      <main className={styles.container}>
 
         <div className={styles.cards_grid}>
           <ProjectCard name="Streamline POS" description="" link="" />

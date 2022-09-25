@@ -1,8 +1,18 @@
+.container{ 
+
+  // overflowing functionalities
+  overflow: auto;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+    height: 50vh;
+}
+
 .cards_grid {
-  overflow-y: auto;
-  display: grid;
+  display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   max-width: 500px;
+  
+
 }
