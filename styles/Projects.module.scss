@@ -3,12 +3,12 @@
   overflow: auto;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
-  height: 50vh;
+  height: 70vh;
 }
 // remove scrollbar for chrome
 .overflow_container::-webkit-scrollbar {
   display: none;
-}
+} 
 
 .cards_grid {
   display: flex;

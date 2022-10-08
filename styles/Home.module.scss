@@ -1,3 +1,40 @@
+.main {
+  min-height: 90vh;
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.section {
+  min-height: 90vh;
+  min-width: 24%;
+  padding: 1rem;
+
+  display: flex;
+
+  // debugging
+  border-color: red;
+  border-style: dashed;
+  border-width: 1px;
+}
+
+.title_block {
+  align-self: center;
+  justify-self: center;
+}
+
+.section_block{
+
+
+
+}
+
+
+
+
 .title a {
   color: #2978b5;
   text-decoration: none;
@@ -12,7 +49,7 @@
 .title {
   margin: 0;
   line-height: 1;
-  font-size: 8rem;
+  font-size: 6rem;
 }
 
 .title u {
@@ -48,7 +85,7 @@
 
   margin: 2rem 0;
   line-height: 1.5;
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 .description a {
@@ -62,47 +99,5 @@
   border-color: #2978b5;
 }
 
-
 //============[ RESPONSIVE DESIGN ]============//
-@media (max-width: 900px) {
-  .main {
-    max-height: 100vh;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .heading {
-    max-width: 500px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .title {
-    font-size: 4rem;
-  }
-
-  .title u {
-    text-decoration-line: underline;
-    text-underline-offset: 1.1rem;
-    text-decoration-thickness: 0.5rem;
-  }
-
-  .description {
-    font-size: 1.19rem;
-  }
-
-}
-
-//============[ THEME ]============//
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
-  }
-}
+// @media (max-width: 900px) {s
