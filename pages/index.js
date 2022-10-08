@@ -29,15 +29,31 @@ export default function Home() {
         <section className={styles.section}>
           {/* projects */}
 
-          <div className={style.section_block}>
+          <div className={styles.section_block}>
             <h1> projects </h1>
-            <p> </p>
 
+            <p> Robotics Research Project </p>
 
+            <p> Streamline </p>
+
+            <p> Endevr </p>
+
+            <p> Better Me </p>
+
+            <p> Art Portfolio Website </p>
+
+            <p> McGill Students' Society Website </p>
           </div>
 
           {/* education */}
-          <h1> education </h1>
+
+          <div className={styles.section_block}>
+            <h1> education </h1>
+
+            
+          </div>
+
+
         </section>
 
         <section className={styles.section}>
