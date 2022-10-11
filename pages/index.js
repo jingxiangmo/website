@@ -12,62 +12,71 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <section className={styles.section}>
-          <div className={styles.title_block}>
+        {/* ===========[ TITLE BLOCK ]===========  */}
+
+        <column className={styles.column}>
+          <div className={styles.title_column}>
             <div className={styles.heading}>
-              <h1 className={styles.title}>
-                <u>JINGX</u>IANG MO{" "}
-              </h1>
+              <dt className={styles.title}> JINGXIANG MO </dt>
 
               <p className={styles.description}>
-                building <a>softwares</a>, <a>robots</a>, <a>communities</a>
+                building softwares, robots, communities
               </p>
             </div>
           </div>
-        </section>
+        </column>
 
-        <section className={styles.section}>
+        {/* ===========[ COLUMN 1]===========  */}
+        <column className={styles.column}>
           {/* projects */}
 
-          <div className={styles.section_block}>
-            <h1> projects </h1>
+          <dl className={styles.block}>
+            <dt> PROJECTS </dt>
 
-            <p> Robotics Research Project </p>
+            <dd>
+              <a href="">Robotics Research Project</a>
+              <br />
+              Branding, identity, strategy, web and digital design
+            </dd>
 
-            <p> Streamline </p>
-
-            <p> Endevr </p>
-
-            <p> Better Me </p>
-
-            <p> Art Portfolio Website </p>
-
-            <p> McGill Students' Society Website </p>
-          </div>
-
-          {/* education */}
-
-          <div className={styles.section_block}>
-            <h1> education </h1>
 
             
-          </div>
 
+            {/* <dd> Streamline </dd>
+            <dd> Endevr </dd>
+            <dd> Better Me </dd>
+            <dd> Art Portfolio Website </dd>
 
-        </section>
+            <dd> McGill Students' Society Website </dd> */}
+          </dl>
+        </column>
 
-        <section className={styles.section}>
-          {/* work */}
-          <h1> work </h1>
+        {/* ===========[ COLUMN 2]===========  */}
 
+        <column className={styles.column}>
           {/* contact */}
-          <h1> contact </h1>
-        </section>
+          <dt> CONTACT </dt>
 
-        <section className={styles.section}>
+          {/* work */}
+          <dl className={styles.column_block}>
+            <dt> WORK </dt>
+            <dd> Qubit (Coveo) </dd>
+          </dl>
+
+          {/* education */}
+          <dl className={styles.column_block}>
+            <dt> EDUCATION </dt>
+          </dl>
+        </column>
+
+        {/* ===========[ COLUMN 3]===========  */}
+
+        <column className={styles.column}>
           {/* writings */}
-          <h1> writings </h1>
-        </section>
+          <dl className={styles.column_block}>
+            <dt> WRITINGS </dt>
+          </dl>
+        </column>
       </main>
     </div>
   );
