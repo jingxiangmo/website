@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Link from 'next/link'
 import styles from '../../styles/Writings.module.scss'
-import Sidebar from '../../components/sidebar'
 
 const importPosts = async () => {
   const markdownFiles = require

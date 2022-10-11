@@ -51,11 +51,13 @@
   }
 
   a {
+    font-weight: bold;
+
     cursor: pointer;
     transition: color 150ms ease-out;
   }
   a:hover {
-    color: var(--c-decoration);
+    color:#2978b5;
   }
   .arrowed::after,
   dd a::after {
