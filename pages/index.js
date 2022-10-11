@@ -46,7 +46,6 @@ export default function Home() {
             <dd> Endevr </dd>
             <dd> Better Me </dd>
             <dd> Art Portfolio Website </dd>
-
             <dd> McGill Students' Society Website </dd> */}
           </dl>
         </column>
@@ -55,16 +54,20 @@ export default function Home() {
 
         <column className={styles.column}>
           {/* contact */}
+
+          <dl className={styles.block}>
           <dt> CONTACT </dt>
+          </dl>
+
 
           {/* work */}
-          <dl className={styles.column_block}>
+          <dl className={styles.block}>
             <dt> WORK </dt>
-            <dd> Qubit (Coveo) </dd>
+            <dd> Product Developer @ Qubit (Coveo) </dd>
           </dl>
 
           {/* education */}
-          <dl className={styles.column_block}>
+          <dl className={styles.block}>
             <dt> EDUCATION </dt>
           </dl>
         </column>
@@ -73,7 +76,7 @@ export default function Home() {
 
         <column className={styles.column}>
           {/* writings */}
-          <dl className={styles.column_block}>
+          <dl className={styles.block}>
             <dt> WRITINGS </dt>
           </dl>
         </column>
