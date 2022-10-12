@@ -39,14 +39,41 @@ export default function Home() {
               Branding, identity, strategy, web and digital design
             </dd>
 
+            <dd>
+              <a href="">Streamline PoS</a>
+              <br />
+              Branding, identity, strategy, web and digital design
+            </dd>
 
-            
+            <dd>
+              <a href="">Endevr</a>
+              <br />
+              Branding, identity, strategy, web and digital design
+            </dd>
 
-            {/* <dd> Streamline </dd>
-            <dd> Endevr </dd>
-            <dd> Better Me </dd>
-            <dd> Art Portfolio Website </dd>
-            <dd> McGill Students' Society Website </dd> */}
+            <dd>
+              <a href="">Better Me</a>
+              <br />
+              Branding, identity, strategy, web and digital design
+            </dd>
+
+            <dd>
+              <a href="">Art Portfolio Website</a>
+              <br />
+              Branding, identity, strategy, web and digital design
+            </dd>
+
+            <dd>
+              <a href="">McGill Students' Society Website</a>
+              <br />
+              Branding, identity, strategy, web and digital design
+            </dd>
+
+            <dd>
+              <a href="">McGill Projects Community </a>
+              <br />
+              Branding, identity, strategy, web and digital design
+            </dd>
           </dl>
         </column>
 
@@ -56,19 +83,59 @@ export default function Home() {
           {/* contact */}
 
           <dl className={styles.block}>
-          <dt> CONTACT </dt>
-          </dl>
+            <dt> CONTACT </dt>
+            <dd>
+              <a href="">Email</a>
+            </dd>
 
+            <dd>
+              <a href="">Linkedin</a>
+            </dd>
+
+            <dd>
+              <a href="">Github</a>
+            </dd>
+          </dl>
 
           {/* work */}
           <dl className={styles.block}>
             <dt> WORK </dt>
-            <dd> Product Developer @ Qubit (Coveo) </dd>
+
+            <dd>
+              Sep 2022 - Dec 2022
+              <br />
+              Reserach Assistant @ McGill Robotics Lab
+            </dd>
+
+            <dd>
+              Sep 2022 - Dec 2022
+              <br />
+               Product Engineer Intern @ Qubit (Coveo)
+            </dd>
+
+            <dd>
+              May 2022 - August 2022
+              <br />
+              Software Project Developer @ Pharmascience
+            </dd>
+
+
+            <dd>
+              Jan 2022 - May 2022
+              <br />
+              Co-Founder & Developer @ Streamline
+            </dd>
+
           </dl>
 
           {/* education */}
           <dl className={styles.block}>
             <dt> EDUCATION </dt>
+            <dd>
+              McGill University
+              <br/>
+              Computer Science + Robotics + Finance
+            </dd>
           </dl>
         </column>
 
