@@ -1,52 +1,25 @@
-// custom font
-@font-face {
-  font-family: "Bebas Neue Pro";
-  src: url("../public/font/Bebas\ Neue\ Pro\ Regular.otf");
-  font-weight: normal;
-  font-weight: 400;
+
+* {
+  box-sizing: border-box;
 }
+
 
 html,
 body {
-  padding: 0;
-  margin: 0;
-  background-color: #f7f7f7;
-
-  // font style
-  font-family: "Bebas Neue Pro";
-  letter-spacing: 1.61803px;
+  font-family: "SF Mono";
   color: #222222;
 }
 
-
-*,
-::after,
-::before {
- box-sizing:border-box;
- padding:0;
- margin:0;
- background:0 0;
- text-decoration:none;
- outline:0;
- font-family:inherit;
- font-size:inherit;
- line-height:inherit;
- font-weight:inherit;
- color:inherit;
- -webkit-font-smoothing:antialiased;
- -moz-osx-font-smoothing:grayscale;
- -webkit-font-feature-settings:"onum","kern","liga","clig","calt";
- font-feature-settings:"onum","kern","liga","clig","calt"
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin-left: 1rem;
 }
 
-
-// @media (prefers-color-scheme: dark) {
-//   html {
-//     color-scheme: dark;
-//   }
-//   body {
-//     color: white;
-//     background: black;
-//   }
-// }
-
+h1 {
+  font-weight: 300;
+}

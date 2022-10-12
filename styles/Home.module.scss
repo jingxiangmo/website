@@ -1,105 +1,47 @@
+.main > .nav {
+  position: sticky;
+  top: 2rem;
+  align-self: start;
+}
+
+
+
+/* 3. ScrollSpy active styles (see JS tab for activation) */
+.nav li.active > a {
+  color: #333;
+  font-weight: 500;
+}
+
+/* Sidebar Navigation */
+.nav {
+  padding-left: 0;
+  border-left: 1px solid #efefef;
+}
+
+.nav a {
+  text-decoration: none;
+  display: block;
+  padding: .125rem 0;
+  color: #ccc;
+  transition: all 50ms ease-in-out; /* 💡 This small transition makes setting of the active state smooth */
+}
+
+.nav a:hover,
+.nav a:focus {
+  color: #666;
+}
+
+/** page layout **/
 .main {
-  padding: 4rem 4rem 4rem 4rem;
-  min-height: 90vh;
-  flex: 1;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 15em;
+  max-width: 100em;
+  width: 90%;
+  margin: 0 auto;
 }
 
-.column {
-  min-height: 90vh;
-  min-width: 24%;
-  display: flex;
-  flex-direction: column;
+/** enlarge the sections for this demo, so that we have a long scrollable page **/
+.section {
+  padding-bottom: 20rem;
 }
 
-.title_column {
-  display: flex;
-  flex: 1;
-  align-items: center;
-}
-
-.title {
-  margin: 0;
-  line-height: 1;
-  font-size: 4.6rem;
-}
-
-.typewriter {
-  // typing animation
-  overflow: hidden; // ensure content is not revealed until the animation
-  white-space: nowrap; /* Keeps the content on a single line */
-  animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
-}
-
-/* The typing effect */
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-// =========
-
-.block {
-  dt {
-    font-size: x-large;
-    margin: 1rem 0 1rem 0;
-  }
-
-dd {
-  font-size: medium;
-  margin: 1rem 0 1.5rem 0;
-}
-
-
-  a {
-    font-weight: bold;
-
-    cursor: pointer;
-    transition: color 150ms ease-out;
-  }
-  a:hover {
-    color:#2978b5;
-  }
-  .arrowed::after,
-  dd a::after {
-    content: "→";
-    display: inline-block;
-    margin-left: 0.25rem;
-    transition: color 200ms, transform 200ms;
-    transition: color 200ms, transform 200ms, -webkit-transform 200ms;
-    color: var(--c-decoration);
-  }
-  .arrowed:hover::after,
-  dd a:hover::after {
-    color: var(--c-text);
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-  }
-}
-
-.description {
-  @extend .typewriter;
-
-  margin: 2rem 0;
-  line-height: 1.5;
-  font-size: 1.4rem;
-}
-
-.description a {
-  text-decoration-line: underline;
-}
-
-.description a:hover,
-.description a:focus,
-.description a:active {
-  color: #2978b5;
-  border-color: #2978b5;
-}
-
-//============[ RESPONSIVE DESIGN ]============//
-// @media (max-width: 900px) {s
