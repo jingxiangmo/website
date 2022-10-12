@@ -1,8 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.scss";
 import Link from "next/link";
-
-import React, { Component } from "react";
+import React, { useEffect, Component, useState } from "react";
 
 const importPosts = async () => {
   const markdownFiles = require
@@ -39,9 +38,7 @@ export default class Home extends Component {
           <div>
             <div className={styles.heading}>
               <h1> JINGXIANG MO </h1>
-              <p>
-                accelerate the world's transition to full automation
-              </p>
+              <p>accelerating the world's transition to full automation</p>
             </div>
 
             <section className={styles.section} id="projects">
@@ -51,11 +48,6 @@ export default class Home extends Component {
 
             <section className={styles.section} id="work">
               <h2>work </h2>
-              <p>…</p>
-            </section>
-
-            <section className={styles.section} id="education">
-              <h2>education </h2>
               <p>…</p>
             </section>
 
@@ -79,9 +71,7 @@ export default class Home extends Component {
               <li>
                 <a href="#work">work</a>
               </li>
-              <li>
-                <a href="#education">education</a>
-              </li>
+
               <li>
                 <a href="#writings">writings</a>
               </li>
