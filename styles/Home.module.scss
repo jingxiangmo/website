@@ -1,19 +1,28 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr 15em;
+  max-width: 100em;
+  width: 75vh;
+  margin: 0 auto;
+}
+
+.section {
+  margin: 5rem 0 1rem;
+  padding-bottom: 20rem;
+}
+
 .main > .nav {
   position: sticky;
+  margin: 4vh 0;
   top: 2rem;
   align-self: start;
 }
 
-
-
-
-/* 3. ScrollSpy active styles (see JS tab for activation) */
 .nav li.active > a {
   color: #333;
   font-weight: 500;
 }
 
-/* Sidebar Navigation */
 .nav {
   padding-left: 0;
   border-left: 1px solid #efefef;
@@ -22,9 +31,9 @@
 .nav a {
   text-decoration: none;
   display: block;
-  padding: .125rem 0;
+  padding: 0.125rem 0;
   color: #ccc;
-  transition: all 50ms ease-in-out; /* 💡 This small transition makes setting of the active state smooth */
+  transition: all 50ms ease-in-out;
 }
 
 .nav a:hover,
@@ -32,17 +41,28 @@
   color: #666;
 }
 
-/** page layout **/
-.main {
-  display: grid;
-  grid-template-columns: 1fr 15em;
-  max-width: 100em;
-  width: 90%;
-  margin: 0 auto;
-}
+.heading {
+  h1 {
+    font-size: 4rem;
+    padding: 0;
+    margin-bottom: 0;
+  }
 
-/** enlarge the sections for this demo, so that we have a long scrollable page **/
-.section {
-  padding-bottom: 20rem;
-}
+  p {
+    font-size: 0.92rem;
 
+    // typewriter effect
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
+
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
+  }
+}

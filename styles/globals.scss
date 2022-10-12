@@ -1,16 +1,15 @@
-
 * {
   box-sizing: border-box;
 }
-
 
 html {
   scroll-behavior: smooth;
 }
 
-
 html,
 body {
+  padding: 0;
+  margin: 3vh auto;
   font-family: "SF Mono";
   color: #222222;
 }
@@ -23,8 +22,4 @@ ol {
 }
 li {
   margin-left: 1rem;
-}
-
-h1 {
-  font-weight: 300;
 }
