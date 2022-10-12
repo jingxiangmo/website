@@ -8,7 +8,44 @@
 
 .section {
   margin: 5rem 0 1rem;
-  padding-bottom: 20rem;
+
+  dt {
+    font-size: 1.8rem;
+    margin: 2rem 0;
+    font-weight: bold;
+  }
+
+  dd {
+    margin: 2.5rem 0;
+
+    p {
+      font-size: 0.9rem;
+    }
+    a {
+      font-weight: bold;
+      cursor: pointer;
+      transition: color 150ms ease-out;
+    }
+    a:hover {
+      color: #2978b5;
+    }
+
+    .arrowed::after,
+    dd a::after {
+      content: "→";
+      display: inline-block;
+      margin-left: 0.25rem;
+      transition: color 200ms, transform 200ms;
+      transition: color 200ms, transform 200ms, -webkit-transform 200ms;
+      color: var(--c-decoration);
+    }
+    .arrowed:hover::after,
+    dd a:hover::after {
+      color: var(--c-text);
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+    }
+  }
 }
 
 .main > .nav {
@@ -47,7 +84,6 @@
     padding: 0;
     margin-bottom: 0;
   }
-
 
   p {
     font-size: 0.89rem;

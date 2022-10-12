@@ -42,8 +42,50 @@ export default class Home extends Component {
             </div>
 
             <section className={styles.section} id="projects">
-              <h2>projects</h2>
-              <p>…</p>
+              <dt>projects</dt>
+              <dl className={styles.block}>
+                <dd>
+                  <a href="">Robotics Research Project</a>
+
+                  <p> Branding, identity, strategy, web and digital design</p>
+                </dd>
+
+                <dd>
+                  <a href="">Streamline PoS</a>
+                  <br />
+                  <p> Branding, identity, strategy, web and digital design</p>
+                </dd>
+
+                <dd>
+                  <a href="">Endevr</a>
+                  <br />
+                  <p> Branding, identity, strategy, web and digital design</p>
+                </dd>
+
+                <dd>
+                  <a href="">Better Me</a>
+                  <br />
+                  <p> Branding, identity, strategy, web and digital design</p>
+                </dd>
+
+                <dd>
+                  <a href="">Art Portfolio Website</a>
+                  <br />
+                  <p> Branding, identity, strategy, web and digital design</p>
+                </dd>
+
+                <dd>
+                  <a href="">McGill Students' Society Website</a>
+                  <br />
+                  <p> Branding, identity, strategy, web and digital design</p>
+                </dd>
+
+                <dd>
+                  <a href="">McGill Projects Community </a>
+                  <br />
+                  <p> Branding, identity, strategy, web and digital design</p>
+                </dd>
+              </dl>
             </section>
 
             <section className={styles.section} id="work">
