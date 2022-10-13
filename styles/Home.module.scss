@@ -1,108 +1,91 @@
-.title a {
-  color: #2978b5;
+.main {
+  display: grid;
+  grid-template-columns: 1fr 15em;
+  max-width: 100em;
+  width: 75vh;
+  margin: 0 auto;
+}
+
+.section {
+  margin: 5rem 0;
+
+  dt {
+    font-size: 1.8rem;
+    margin: 2rem 0;
+    font-weight: bold;
+  }
+
+  dd {
+    margin: 2.3rem 0;
+
+    p {
+      font-size: 0.89rem;
+      color: #666;
+    }
+    a {
+      font-weight: bold;
+  
+      cursor: pointer;
+      transition: color 150ms ease-out;
+    }
+    a:hover {
+      color:#2978b5;
+    }
+  }
+}
+
+.main > .nav {
+  position: sticky;
+  margin: 4vh 0;
+  top: 2rem;
+  align-self: start;
+}
+
+.nav li.active > a {
+  color: #333;
+  font-weight: 500;
+}
+
+.nav {
+  padding-left: 0;
+  border-left: 1px solid #efefef;
+}
+
+.nav a {
   text-decoration: none;
+  display: block;
+  padding: 0.125rem 0;
+  color: #666;
+  transition: all 50ms ease-in-out;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0;
-  line-height: 1;
-  font-size: 8rem;
-}
-
-.title u {
-  text-decoration-line: underline;
-  text-underline-offset: 1.3rem;
-  text-decoration-thickness: 0.8rem;
-}
-
-.title,
-.description {
-  text-align: left;
-}
-
-.typewriter {
-  // typing animation
-  overflow: hidden; // ensure content is not revealed until the animation
-  white-space: nowrap; /* Keeps the content on a single line */
-  animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
-}
-
-/* The typing effect */
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-.description {
-  @extend .typewriter;
-
-  margin: 2rem 0;
-  line-height: 1.5;
-  font-size: 2rem;
-}
-
-.description a {
-  text-decoration-line: underline;
-}
-
-.description a:hover,
-.description a:focus,
-.description a:active {
+.nav a:hover,
+.nav a:focus {
   color: #2978b5;
-  border-color: #2978b5;
 }
 
-
-//============[ RESPONSIVE DESIGN ]============//
-@media (max-width: 900px) {
-  .main {
-    max-height: 100vh;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .heading {
-    max-width: 500px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .title {
+.heading {
+  h1 {
+    margin-top: 2rem;
     font-size: 4rem;
   }
 
-  .title u {
-    text-decoration-line: underline;
-    text-underline-offset: 1.1rem;
-    text-decoration-thickness: 0.5rem;
-  }
+  p {
+    font-size: 0.89rem;
+    color: #666;
 
-  .description {
-    font-size: 1.19rem;
-  }
+    // typewriter effect
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
 
-}
-
-//============[ THEME ]============//
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
   }
 }
