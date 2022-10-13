@@ -1,5 +1,5 @@
 ---
-title: "Proposal: Agile Self-Development Team"
+title: "Proposal: Agile Self-Development Group"
 date: 2022/10/12
 ---
 
