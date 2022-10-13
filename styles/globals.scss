@@ -23,3 +23,24 @@ ol {
 li {
   margin-left: 1rem;
 }
+
+
+*,
+::after,
+::before {
+ box-sizing:border-box;
+ padding:0;
+ margin:0;
+ background:0 0;
+ text-decoration:none;
+ outline:0;
+ font-family:inherit;
+ font-size:inherit;
+ line-height:inherit;
+ font-weight:inherit;
+ color:inherit;
+ -webkit-font-smoothing:antialiased;
+ -moz-osx-font-smoothing:grayscale;
+ -webkit-font-feature-settings:"onum","kern","liga","clig","calt";
+ font-feature-settings:"onum","kern","liga","clig","calt"
+}
