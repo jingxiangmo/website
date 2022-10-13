@@ -45,7 +45,9 @@ export default class Home extends Component {
               <dt>projects</dt>
               <dl className={styles.block}>
                 <dd>
-                  <a href='https://www.cs.mcgill.ca/~jvybihal/index.php?Page=About'>The Prometheus Project</a>
+                  <a href='https://www.cs.mcgill.ca/~jvybihal/index.php?Page=About'>
+                    The Prometheus Project
+                  </a>
                   <p> multi-agent robotics and multi-level AI research</p>
                 </dd>
 
@@ -60,17 +62,23 @@ export default class Home extends Component {
                 </dd>
 
                 <dd>
-                  <a href='https://github.com/better-me-team/better.me'>Better Me</a>
+                  <a href='https://github.com/better-me-team/better.me'>
+                    Better Me
+                  </a>
                   <p> AI mental health journal & recommendations </p>
                 </dd>
 
                 <dd>
-                  <a href='https://www.musmcgill.com/'>McGill Students' Society Website</a>
+                  <a href='https://www.musmcgill.com/'>
+                    McGill Students' Society Website
+                  </a>
                   <p> official website for the MUS </p>
                 </dd>
 
                 <dd>
-                  <a href='https://discord.gg/bwvuq9n'>McGill Projects (Community) </a>
+                  <a href='https://discord.gg/bwvuq9n'>
+                    McGill Projects (Community){' '}
+                  </a>
                   <p> a community of 200 software developers </p>
                 </dd>
               </dl>
@@ -85,22 +93,34 @@ export default class Home extends Component {
                 </dd>
 
                 <dd>
-                  <a href='https://www.cs.mcgill.ca/~jvybihal/index.php?Page=About'> Reserach Assistant </a>
+                  <a href='https://www.cs.mcgill.ca/~jvybihal/index.php?Page=About'>
+                    {' '}
+                    Reserach Assistant{' '}
+                  </a>
                   <p> @ McGill Prometheus Robotics Lab </p>
                 </dd>
 
                 <dd>
-                  <a href='https://jingxiangmo.notion.site/Bricklayers-Studio-Public-Page-d15b6f75923c4e69a0e51715850381d8'> Co-Founder / Developer </a>
+                  <a href='https://jingxiangmo.notion.site/Bricklayers-Studio-Public-Page-d15b6f75923c4e69a0e51715850381d8'>
+                    {' '}
+                    Co-Founder / Developer{' '}
+                  </a>
                   <p> @ Bricklayers Studio</p>
                 </dd>
 
                 <dd>
-                  <a href='https://customer-ofour.web.app/'> Co-Founder / Developer </a>
+                  <a href='https://customer-ofour.web.app/'>
+                    {' '}
+                    Co-Founder / Developer{' '}
+                  </a>
                   <p> @ Streamline </p>
                 </dd>
 
                 <dd>
-                  <a href='https://www.pharmascience.com/en/'> Software Project Developer </a>
+                  <a href='https://www.pharmascience.com/en/'>
+                    {' '}
+                    Software Project Developer{' '}
+                  </a>
                   <p> @ Pharmascience </p>
                 </dd>
               </dl>
@@ -127,18 +147,27 @@ export default class Home extends Component {
               <dt>contact</dt>
               <dl className={styles.block}>
                 <dd>
-                  <a href='mailto:jingxiangmo@gmail.com'> Email </a>
-                  <p> jingxiangmo@gmail.com </p>
+                  <a href='mailto:jingxiangmo@gmail.com'>
+                    {' '}
+                    jingxiangmo@gmail.com{' '}
+                  </a>
+                  <p> Email </p>
                 </dd>
 
                 <dd>
-                  <a href='https://www.linkedin.com/in/jingxiangmo'> Linkedin </a>
-                  <p> linkedin/jingxiangmo </p>
+                  <a href='https://www.linkedin.com/in/jingxiangmo'>
+                    {' '}
+                    linkedin/jingxiangmo{' '}
+                  </a>
+                  <p> LInkedin </p>
                 </dd>
 
                 <dd>
-                  <a href='https://github.com/jingxiangmo'> Github: </a>
-                  <p> github/jingxiangmo </p>
+                  <a href='https://github.com/jingxiangmo'>
+                    {' '}
+                    github/jingxiangmo{' '}
+                  </a>
+                  <p> Github </p>
                 </dd>
               </dl>
             </section>
