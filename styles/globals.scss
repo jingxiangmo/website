@@ -1,3 +1,9 @@
+// custom font
+@font-face {
+  font-family: "SFMono";
+  src: url("../public/font/SFMonoMedium.otf");
+}
+
 * {
   box-sizing: border-box;
 }
@@ -8,9 +14,9 @@ html {
 
 html,
 body {
-  padding: 0;
+
   margin: 3vh auto;
-  font-family: "SF Mono";
+  font-family: "SFMono";
   color: #222222;
 }
 
