@@ -1,8 +1,7 @@
 .main {
   display: grid;
-  grid-template-columns: 1fr 15em;
-  max-width: 100em;
-  width: 75vh;
+  grid-template-columns: 35rem 10rem;
+  width: 45%;
   margin: 0 auto;
 }
 
@@ -24,12 +23,18 @@
     }
     a {
       font-weight: bold;
-  
+
       cursor: pointer;
       transition: color 150ms ease-out;
     }
     a:hover {
-      color:#2978b5;
+      color: #2978b5;
+    }
+  }
+
+  .writings_list {
+    dd {
+      margin: 1rem 0;
     }
   }
 }
@@ -89,3 +94,10 @@
     }
   }
 }
+
+@media (max-width: 1200px) {
+  .nav{
+    display:none;
+  }
+}
+

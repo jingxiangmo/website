@@ -1,15 +1,10 @@
-
-.container{
+.container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .article {
-  max-width: 90vh;
-  min-height: 90vh;
-  padding: 10rem;
+  padding: 10rem 30rem;
 }
 
 .article_title {
@@ -21,12 +16,21 @@
 .article_date {
   font-size: 0.8rem;
   color: #666;
+  margin-bottom: 2rem;
 }
 
 .article_content {
   font-family: Arial, Helvetica, sans-serif;
 
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   line-height: 2rem;
+}
+
+
+@media (max-width: 1200px) {
+  .article {
+    padding: 3rem;
+  }
 
 }
+

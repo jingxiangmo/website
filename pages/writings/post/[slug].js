@@ -21,19 +21,15 @@ class Post extends Component {
     } = this.props.blogpost.default
 
     return (
-      <>
-        <main className={styles.container}>
+     
           <article className={styles.article}>
             <h1 className={styles.article_title}>{title}</h1>
             <p className={styles.article_date}>{date}</p>
-
             <p className={styles.article_content}>
               <div dangerouslySetInnerHTML={{ __html: html }} />
             </p>
-
           </article>
-        </main>
-      </>
+
     )
   }
 }
