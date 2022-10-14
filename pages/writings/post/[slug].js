@@ -25,9 +25,9 @@ class Post extends Component {
       <article className={styles.article}>
         <h1 className={styles.article_title}>{title}</h1>
         <p className={styles.article_date}>{date}</p>
-        <p className={styles.article_content}>
+        <div className={styles.article_content}  markdown="1">
           <div dangerouslySetInnerHTML={{ __html: html }} />
-        </p>
+        </div>
       </article>
 
     )
