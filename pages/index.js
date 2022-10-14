@@ -48,7 +48,7 @@ export default class Home extends Component {
                   <a href='https://www.cs.mcgill.ca/~jvybihal/index.php?Page=About'>
                     The Prometheus Project
                   </a>
-                  <p> multi-agent robotics and multi-level AI research</p>
+                  <p> multi-agent autonomous robotic systems research</p>
                 </dd>
 
                 <dd>
@@ -93,7 +93,7 @@ export default class Home extends Component {
                 </dd>
 
                 <dd>
-                  <a href='https://www.cs.mcgill.ca/~jvybihal/index.php?Page=About'>
+                  <a href='https://www.cs.mcgill.ca/~jvybihal/index.php?Page=Research'>
                     {' '}
                     Research Assistant{' '}
                   </a>
