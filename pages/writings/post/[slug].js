@@ -20,14 +20,14 @@ class Post extends Component {
       attributes: { title }
     } = this.props.blogpost.default
 
+    console.log(html)
+
     return (
 
       <article className={styles.article}>
         <h1 className={styles.article_title}>{title}</h1>
         <p className={styles.article_date}>{date}</p>
-        <div className={styles.article_content}  markdown="1">
-          <div dangerouslySetInnerHTML={{ __html: html }} />
-        </div>
+        <div className={styles.article_content} dangerouslySetInnerHTML={{ __html: html }} />
       </article>
 
     )
