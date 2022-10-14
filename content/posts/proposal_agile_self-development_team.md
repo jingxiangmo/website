@@ -2,7 +2,7 @@
 title: "Proposal: Agile Self-Development Group"
 date: 2022/10/01
 ---
-**Inspiration**
+## Inspiration
 
 Agile development is a common framework in large software development companies. Its main philosophy is to provide continuous improvements and natural mechanism for small teams to respond to changes quickly.
 
@@ -12,7 +12,7 @@ Having goals is not enough. A good support system will foster long term progress
 
 In this proposal, I would like to include the main principles of agile development rather than the all the key agile concepts.
 
-**Methodology**
+## Methodology
 
 To begin, I would like to define a few terms:
 
@@ -28,7 +28,7 @@ The main idea is simple:
 
 > Every week, the team will set **sprint** plans that will be held accountable by **daily stand ups** and will share their learning at the **sprint retrospective** meetings.
 
-**Implementation**
+## Implementation
 
 1. A discord group will be made for the **team**.
 2. Notion pages will be created to track daily stands ups and sprint plans.
