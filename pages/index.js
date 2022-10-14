@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.scss'
 import Link from 'next/link'
-import React, { useEffect, Component, useState } from 'react'
+import React, { Component } from 'react'
 
 const importPosts = async () => {
   const markdownFiles = require
@@ -88,16 +88,16 @@ export default class Home extends Component {
               <dt>work</dt>
               <dl className={styles.block}>
                 <dd>
-                  <a href='https://www.qubit.com/'> Product Engineer Intern </a>
+                  <a href='https://www.qubit.com/'>Product Engineer Intern </a>
                   <p> @ Qubit (Coveo) </p>
                 </dd>
 
                 <dd>
                   <a href='https://www.cs.mcgill.ca/~jvybihal/index.php?Page=About'>
                     {' '}
-                    Reserach Assistant{' '}
+                    Research Assistant{' '}
                   </a>
-                  <p> @ McGill Prometheus Robotics Lab </p>
+                  <p> @ McGill Robotics Lab </p>
                 </dd>
 
                 <dd>
@@ -159,7 +159,7 @@ export default class Home extends Component {
                     {' '}
                     linkedin/jingxiangmo{' '}
                   </a>
-                  <p> LInkedin </p>
+                  <p> Linkedin </p>
                 </dd>
 
                 <dd>
