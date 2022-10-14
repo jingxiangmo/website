@@ -1,37 +1,54 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.scss'
-import Link from 'next/link'
-import React, { Component } from 'react'
+import Head from "next/head";
+import styles from "../styles/Home.module.scss";
+import Link from "next/link";
+import React, { Component } from "react";
+import Script from "next/script";
 
 const importPosts = async () => {
   const markdownFiles = require
-    .context('../content/posts', false, /\.md$/)
+    .context("../content/posts", false, /\.md$/)
     .keys()
-    .map((relativePath) => relativePath.substring(2))
+    .map((relativePath) => relativePath.substring(2));
   return Promise.all(
     markdownFiles.map(async (path) => {
-      const markdown = await import(`../content/posts/${path}`)
-      return { ...markdown, slug: path.substring(0, path.length - 3) }
+      const markdown = await import(`../content/posts/${path}`);
+      return { ...markdown, slug: path.substring(0, path.length - 3) };
     })
-  )
-}
+  );
+};
 
 export default class Home extends Component {
-  static async getInitialProps () {
-    const postsList = await importPosts()
+  static async getInitialProps() {
+    const postsList = await importPosts();
 
-    return { postsList }
+    return { postsList };
   }
 
-  render () {
-    const { postsList } = this.props
+  render() {
+    const { postsList } = this.props;
 
     return (
       <>
+        <Script
+          strategy="lazyOnload"
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+        />
+
+        <Script strategy="lazyOnload">
+          {`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+                    page_path: window.location.pathname,
+                    });
+                `}
+        </Script>
+
         <Head>
           <title>Jingxiang Mo</title>
-          <meta name='Jingxiang Mo' content="jingxiang mo's website" />
-          <link rel='icon' href='/favicon.ico' />
+          <meta name="Jingxiang Mo" content="jingxiang mo's website" />
+          <link rel="icon" href="/favicon.ico" />
         </Head>
 
         <main className={styles.main}>
@@ -41,92 +58,92 @@ export default class Home extends Component {
               <p>accelerating the world's transition to full automation</p>
             </div>
 
-            <section className={styles.section} id='projects'>
+            <section className={styles.section} id="projects">
               <dt>projects</dt>
               <dl className={styles.block}>
                 <dd>
-                  <a href='https://www.cs.mcgill.ca/~jvybihal/index.php?Page=About'>
+                  <a href="https://www.cs.mcgill.ca/~jvybihal/index.php?Page=About">
                     The Prometheus Project
                   </a>
                   <p> multi-agent autonomous robotic systems research</p>
                 </dd>
 
                 <dd>
-                  <a href='https://customer-ofour.web.app/'>Streamline PoS</a>
+                  <a href="https://customer-ofour.web.app/">Streamline PoS</a>
                   <p> payment rail to automate restaurant point of sale</p>
                 </dd>
 
                 <dd>
-                  <a href='https://github.com/Endevr-Team'>Endevr</a>
+                  <a href="https://github.com/Endevr-Team">Endevr</a>
                   <p> blockchain based research crowdfunding platform </p>
                 </dd>
 
                 <dd>
-                  <a href='https://github.com/better-me-team/better.me'>
+                  <a href="https://github.com/better-me-team/better.me">
                     Better Me
                   </a>
                   <p> AI mental health journal & recommendations </p>
                 </dd>
 
                 <dd>
-                  <a href='https://www.musmcgill.com/'>
+                  <a href="https://www.musmcgill.com/">
                     McGill Students' Society Website
                   </a>
                   <p> official website for the MUS </p>
                 </dd>
 
                 <dd>
-                  <a href='https://discord.gg/bwvuq9n'>
-                    McGill Projects (Community){' '}
+                  <a href="https://discord.gg/bwvuq9n">
+                    McGill Projects (Community){" "}
                   </a>
                   <p> a community of 200 software developers </p>
                 </dd>
               </dl>
             </section>
 
-            <section className={styles.section} id='work'>
+            <section className={styles.section} id="work">
               <dt>work</dt>
               <dl className={styles.block}>
                 <dd>
-                  <a href='https://www.qubit.com/'>Product Engineer Intern </a>
+                  <a href="https://www.qubit.com/">Product Engineer Intern </a>
                   <p> @ Qubit (Coveo) </p>
                 </dd>
 
                 <dd>
-                  <a href='https://www.cs.mcgill.ca/~jvybihal/index.php?Page=Research'>
-                    {' '}
-                    Research Assistant{' '}
+                  <a href="https://www.cs.mcgill.ca/~jvybihal/index.php?Page=Research">
+                    {" "}
+                    Research Assistant{" "}
                   </a>
                   <p> @ McGill Robotics Lab </p>
                 </dd>
 
                 <dd>
-                  <a href='https://jingxiangmo.notion.site/Bricklayers-Studio-Public-Page-d15b6f75923c4e69a0e51715850381d8'>
-                    {' '}
-                    Co-Founder / Developer{' '}
+                  <a href="https://jingxiangmo.notion.site/Bricklayers-Studio-Public-Page-d15b6f75923c4e69a0e51715850381d8">
+                    {" "}
+                    Co-Founder / Developer{" "}
                   </a>
                   <p> @ Bricklayers Studio</p>
                 </dd>
 
                 <dd>
-                  <a href='https://customer-ofour.web.app/'>
-                    {' '}
-                    Co-Founder / Developer{' '}
+                  <a href="https://customer-ofour.web.app/">
+                    {" "}
+                    Co-Founder / Developer{" "}
                   </a>
                   <p> @ Streamline </p>
                 </dd>
 
                 <dd>
-                  <a href='https://www.pharmascience.com/en/'>
-                    {' '}
-                    Software Project Developer{' '}
+                  <a href="https://www.pharmascience.com/en/">
+                    {" "}
+                    Software Project Developer{" "}
                   </a>
                   <p> @ Pharmascience </p>
                 </dd>
               </dl>
             </section>
 
-            <section className={styles.section} id='writings'>
+            <section className={styles.section} id="writings">
               <dt>writings</dt>
               <dl>
                 <div className={styles.writings_list}>
@@ -137,35 +154,35 @@ export default class Home extends Component {
                           <a>{post.attributes.title}</a>
                         </dd>
                       </Link>
-                    )
+                    );
                   })}
                 </div>
               </dl>
             </section>
 
-            <section className={styles.section} id='contact'>
+            <section className={styles.section} id="contact">
               <dt>contact</dt>
               <dl className={styles.block}>
                 <dd>
-                  <a href='mailto:jingxiangmo@gmail.com'>
-                    {' '}
-                    jingxiangmo@gmail.com{' '}
+                  <a href="mailto:jingxiangmo@gmail.com">
+                    {" "}
+                    jingxiangmo@gmail.com{" "}
                   </a>
                   <p> Email </p>
                 </dd>
 
                 <dd>
-                  <a href='https://www.linkedin.com/in/jingxiangmo'>
-                    {' '}
-                    linkedin/jingxiangmo{' '}
+                  <a href="https://www.linkedin.com/in/jingxiangmo">
+                    {" "}
+                    linkedin/jingxiangmo{" "}
                   </a>
                   <p> Linkedin </p>
                 </dd>
 
                 <dd>
-                  <a href='https://github.com/jingxiangmo'>
-                    {' '}
-                    github/jingxiangmo{' '}
+                  <a href="https://github.com/jingxiangmo">
+                    {" "}
+                    github/jingxiangmo{" "}
                   </a>
                   <p> Github </p>
                 </dd>
@@ -177,23 +194,23 @@ export default class Home extends Component {
           <nav className={styles.nav}>
             <ol>
               <li>
-                <a href='#projects'>projects</a>
+                <a href="#projects">projects</a>
               </li>
               <li>
-                <a href='#work'>work</a>
-              </li>
-
-              <li>
-                <a href='#writings'>writings</a>
+                <a href="#work">work</a>
               </li>
 
               <li>
-                <a href='#contact'>contact</a>
+                <a href="#writings">writings</a>
+              </li>
+
+              <li>
+                <a href="#contact">contact</a>
               </li>
             </ol>
           </nav>
         </main>
       </>
-    )
+    );
   }
 }
