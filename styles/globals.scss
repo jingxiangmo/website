@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "SFMono";
+  src: url("../public/font/SFMonoMedium.otf");
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background: 0 0;
+  text-decoration: none;
+  outline: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+  color: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-feature-settings: "onum", "kern", "liga", "clig", "calt";
+  font-feature-settings: "onum", "kern", "liga", "clig", "calt";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  display: flex;
+  justify-content: center;
+  margin: 3vh;
+  font-family: "SFMono";
+  color: #222222;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-left: 1rem;
+}
+
+#quicklinks {
+  display: none;
+}
+
+@media (max-width: 600px) {
+
+  #projects {
+    display: none;
+  }
+
+  #work {
+    display: none;
+  }
+
+  #writings {
+    display: none;
+  }
+
+  #contact {
+    display: none;
+  }
+
+  #quicklinks {
+    display: block;
+  }
+}

@@ -1,0 +1,20 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+media_folder: public/img
+public_folder: public
+slug:
+  encoding: 'ascii'
+  clean_accents: true
+  sanitize_replacement: '_'
+collections:
+  - label: 'Post'
+    name: 'post'
+    date_format: "DD.MM.YYYY"
+    folder: 'content/posts'
+    create: true
+    slug: '{{slug}}'
+    fields: 
+      - { label: 'Title', name: 'title', widget: 'string', required: true }
+      - { label: 'Publish Date', name: 'date', required: true } # changed from 'datetime' to 'date'
+      - { label: 'Body', name: 'body', widget: 'markdown', required: true }
