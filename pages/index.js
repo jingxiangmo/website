@@ -38,7 +38,7 @@ export default class Home extends Component {
           <div>
             <div className={styles.heading}>
               <h1> JINGXIANG MO </h1>
-              <p>learning, and doing cool projects with cool people</p>
+              <p>learning, and building cool projects with cool people</p>
             </div>
 
             <section className={styles.section} id='projects'>
