@@ -168,7 +168,6 @@ export default class Home extends Component {
             <section className={styles.section} id='quicklinks'>
 
               <dl className={styles.block}>
-
                 <dd>
                   <a href='https://www.facebook.com/jingxiang.mo.3/'>
                     messenger/jingxiang.mo3
@@ -196,15 +195,8 @@ export default class Home extends Component {
                   </a>
                   <p> Github </p>
                 </dd>
-
-                <dd>
-                  <a href='https://jingxiangmo.com'>
-                    jingxiangmo.com
-                  </a>
-                  <p> Landscape for more </p>
-                </dd>
-
               </dl>
+                
             </section>
           </div>
 
