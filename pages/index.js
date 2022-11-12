@@ -58,7 +58,7 @@ export default class Home extends Component {
 
                 <dd>
                   <a href='https://github.com/Endevr-Team'>Endevr</a>
-                  <p> blockchain based research crowdfunding platform </p>
+                  <p>  decentralizing scientific research on blockchain</p>
                 </dd>
 
                 <dd>
