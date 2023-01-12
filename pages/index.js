@@ -161,7 +161,6 @@ export default class Home extends Component {
                   </a>
                   <p> Github </p>
                 </dd>
-
               </dl>
             </section>
 
