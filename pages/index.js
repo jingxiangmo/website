@@ -62,10 +62,11 @@ export default class Home extends Component {
                 </dd>
                 
                 <dd>
-                  <a href='https://github.com/better-me-team/better.me'>
+                  <a href='https://jingxiangmo-email-secretary-app-m8fgfa.streamlit.app/'>
                   Email Secetary MVP
                   </a>
-                  <p> email writer with translation using GPT-3</p>                </dd>
+                  <p> email writer with translation using GPT-3</p>                
+                  </dd>
 
                 <dd>
                   <a href='https://github.com/jingxiangmo/email-secretary'>
