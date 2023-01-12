@@ -46,23 +46,29 @@ export default class Home extends Component {
               <dl className={styles.block}>
                 <dd>
                   <a href='https://www.cs.mcgill.ca/~jvybihal/index.php?Page=About'>
-                    Autonomous Robots
+                    Autonomous Robots Swarm
                   </a>
-                  <p> multi-agent autonomous robotic systems project</p>
+                  <p> Server controlled rover robots swarm</p>
                 </dd>
 
                 <dd>
                   <a href='https://customer-ofour.web.app/'>Streamline PoS</a>
-                  <p> payment rail to automate restaurant point of sale</p>
+                  <p> restaurant payment rail management software</p>
                 </dd>
 
                 <dd>
-                  <a href='https://github.com/Endevr-Team'>Endevr</a>
+                  <a href='https://github.com/Endevr-Team'>Project Endevr</a>
                   <p>  decentralizing scientific research on blockchain</p>
                 </dd>
-
+                
                 <dd>
                   <a href='https://github.com/better-me-team/better.me'>
+                  Email Secetary MVP
+                  </a>
+                  <p> email writer with translation using GPT-3</p>                </dd>
+
+                <dd>
+                  <a href='https://github.com/jingxiangmo/email-secretary'>
                     Better Me
                   </a>
                   <p> AI mental health journal & recommendations </p>
@@ -86,7 +92,7 @@ export default class Home extends Component {
 
                 <dd>
                   <a href='https://www.cs.mcgill.ca/~jvybihal/index.php?Page=Research'>
-                    Research Assistant
+                    Research Project Assistant
                   </a>
                   <p> @ McGill Robotics Lab </p>
                 </dd>
@@ -149,13 +155,6 @@ export default class Home extends Component {
                 </dd>
 
                 <dd>
-                  <a href='https://www.linkedin.com/in/jingxiangmo'>
-                    linkedin/jingxiangmo
-                  </a>
-                  <p> Linkedin </p>
-                </dd>
-
-                <dd>
                   <a href='https://github.com/jingxiangmo'>
                     github/jingxiangmo
                   </a>
@@ -179,13 +178,6 @@ export default class Home extends Component {
                     jingxiangmo@gmail.com
                   </a>
                   <p> Email </p>
-                </dd>
-
-                <dd>
-                  <a href='https://www.linkedin.com/in/jingxiangmo'>
-                    linkedin/jingxiangmo
-                  </a>
-                  <p> Linkedin </p>
                 </dd>
 
                 <dd>
