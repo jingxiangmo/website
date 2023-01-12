@@ -48,7 +48,7 @@ export default class Home extends Component {
                   <a href='https://www.cs.mcgill.ca/~jvybihal/index.php?Page=About'>
                     Autonomous Robots Swarm
                   </a>
-                  <p> Server controlled rover robots swarm</p>
+                  <p> server controlled rover robots swarm</p>
                 </dd>
 
                 <dd>
