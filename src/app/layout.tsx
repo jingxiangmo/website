@@ -1,17 +1,8 @@
 import './globals.scss'
 import type { Metadata } from 'next'
-import localFont from 'next/font/local'
+import { Manrope } from 'next/font/google'
 
-const font = localFont({
-  src: [
-
-    {
-      path: '../../public/font/AppleGaramond.ttf',
-      weight: '400',
-      style: 'normal',
-    }
-  ]
-})
+const font = Manrope({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Jingxiang mo',
