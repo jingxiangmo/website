@@ -8,10 +8,9 @@ export default function Home() {
         <h1 className={styles.title}> Jingxiang Mo </h1>
         <NavBar />
         <div className={styles.about}>
-          <p> Hey, I'm a Senior Software Engineer at Company. I enjoy working with Next.js and sdfsdf beautiful front-end experiences. </p>
-          <p> Hey, I'm a Senior Software Engineer at Company. I enjoy working with Next.js and sdfsdf beautiful front-end experiences. </p>
-          <p> Hey, I'm a Senior Software Engineer at Company. I enjoy working with Next.js and crafting beautiful front-end experiences. </p>
-          <p> Hey, I'm a Senior Software Engineer at Company. I enjoy working with Next.js and crafting beautiful front-end experiences. </p>
+          <p> I currently work on ___. </p>
+          <p> My ambition is to make good gifts for people around me and the world. </p>
+          <p> I'm currently at McGill University learning Computer Science and Math. My interests of knowledge include robotics, AI, AI alignment, biology, physics, and philosophy. </p>
         </div>
       </main>
     </>
