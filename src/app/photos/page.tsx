@@ -1,9 +1,15 @@
+import NavBar from "../../components/NavBar";
+import styles from './page.module.scss'
 
 
 const Photos = () => {
 
     return (
-        <p>Photos</p>
+        <main className={styles.main}>
+            <h1 className={styles.title}> Photos </h1>
+            <NavBar />
+        </main>
+
     );
 };
 
