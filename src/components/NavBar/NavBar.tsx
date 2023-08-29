@@ -19,6 +19,7 @@ const NavBar = () => {
             <Link href="/photos" className={
                 currentRoute === "/photos" ? styles.active_link : styles.non_active_link}>Photos
             </Link>
+            <a href="https://jingxiangmo.substack.com/" className={styles.non_active_link}> Writings </a>
         </div>
     );
 };

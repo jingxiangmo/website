@@ -1,4 +1,4 @@
-import NavBar from "../../components/NavBar";
+import NavBar from "../../components/NavBar/NavBar";
 import styles from './page.module.scss'
 
 const Projects = () => {
