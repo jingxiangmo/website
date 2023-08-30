@@ -1,0 +1,55 @@
+.block {
+    width: 33rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2rem;
+    &.reverse {
+      flex-direction: row-reverse;
+    }
+    .image {
+      width: 50%;
+      img {
+        width: 100%;
+        border-radius: 8px;  // Rounded corners
+      }
+    }
+    .content {
+      width: 50%;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; 
+
+      .title {
+        font-weight: 500;
+        display: flex;
+        align-items: baseline;
+
+        .date {
+          margin-left: 0.5rem;
+          font-size: small;
+          color: gray;
+        }
+      }
+
+      .description {
+        margin: 0.75rem 0;
+      }
+
+      .links {
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        margin-top: auto;
+      }
+      
+      .tech {
+        display: flex;
+        gap: 0.5rem;
+        margin-top: 0.5rem;
+        flex-wrap: wrap;
+      }
+    }
+  }
+  
