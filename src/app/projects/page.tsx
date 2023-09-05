@@ -15,23 +15,38 @@ const Projects: React.FC = () => {
             },
             tech: ["TypeScript", "Rust", "Music", "React"]
         },
-        // Add more projects here
+        // more project stuff here
     ];
+
     return (
         <>
             <main className={styles.main}>
                 <h1 className={styles.title}> Projects </h1>
                 <NavBar />
 
-                <div>
-                    {projects.map((project, index) => (
-                        <Project
-                            key={index}
-                            {...project}
-                            reverse={index % 2 !== 0}
-                        />
-                    ))}
+                <div className={styles.proj_card}>
+                    <img className={styles.proj_img} src="/path/to/image.jpg" alt="Description" />
+
+                    <div >
+                        <div>
+                            <h1 className={styles.proj_title}> AlphaScript </h1>
+                            <p className={styles.proj_date}> Aug 2023 </p>
+                        </div>
+
+                        <p className={styles.proj_headline}> Local transcription blah blah blah</p>
+
+                        <p className={styles.proj_description}> Hello world my name is Jacob, I love dogs. </p>
+
+                        <div className={styles.prof_links}>
+                            <p> Links: </p>
+                            <a href=""> Website </a>
+                            <a href=""> Github </a>
+                        </div>
+                    </div>
                 </div>
+
+
+
             </main>
         </>
     );

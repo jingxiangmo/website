@@ -1,11 +1,55 @@
+@import "/src/app/styles/_variables.scss";
+
 .main {
+  display: flex;
+  flex-direction: column;
+  padding: 6rem 25rem;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.proj_card {
+  align-self: center;
+
+  display: flex;
+  flex-direction: row;
+  border: 0.02rem solid black;
+  border-radius: 0.2rem;
+
+  .proj_img {
+    border-radius: 0.2rem;
+    width: 20rem;
+  }
+
+  .proj_info {
     display: flex;
     flex-direction: column;
-    padding: 6rem 25rem;
-    min-height: 100vh;
-  }
+
+    .proj_title {
+      font-size: 1.5rem;
+      color: $text-primary;
+    }
+
+    .proj_date {
+      font-size: 0.8rem;
+      color: $text-secondary;
+    }
+
+    .proj_headline {
+      font-size: 1rem;
+      color: $text-secondary;
+    }
+
+    .proj_description {
+      font-size: 0.3rem;
+    }
+
+    .proj-links {
   
-  .title {
-    font-size: 2.5rem;
-    font-weight: bold;
+    }
   }
+}
