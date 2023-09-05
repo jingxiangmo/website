@@ -15,20 +15,26 @@ interface ProjectCardProps {
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   return (
     <div className={styles.proj_card}>
-      <img className={styles.proj_img} src={project.imageUrl} alt="Description" />
+      <img className={styles.proj_img} src={project.imageUrl} alt="Project Image" />
+
       <div className={styles.proj_info}>
+
         <div className={styles.proj_title_bar}>
           <h1 className={styles.proj_title}> {project.title} </h1>
           <p className={styles.proj_date}> {project.date} </p>
         </div>
+
         <p className={styles.proj_headline}> {project.headline} </p>
         <p className={styles.proj_description}> {project.description} </p>
+
         <div className={styles.proj_links}>
           <p>Links:</p>
           <a className={styles.link} href={project.links.website}>Website</a>
           <a className={styles.link} href={project.links.github}>Github</a>
         </div>
+
       </div>
+      
     </div>
   );
 };
