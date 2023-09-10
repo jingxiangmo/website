@@ -1,19 +1,30 @@
 import NavBar from "../../components/NavBar/NavBar";
 import styles from './page.module.scss'
 import Image from "next/image";
+import { urlForImage } from '../../../sanity/lib/image'
 
-const Photos = () => {
 
+interface PhotosProps {
+    photos: any[];
+  }
+  
+  export default function Photos ({ photos }: PhotosProps) {
     return (
         <main className={styles.main}>
             <h1 className={styles.title}> Photos </h1>
             <NavBar />
             <div className={styles.images}>
-                <Image className={styles.image} src="/images/paper_store.webp" alt="1" width={600} height={450} />
+                {photos.map(photo => (
+                    <Image 
+                        key={photo._id}
+                        className={styles.image} 
+                        src={urlForImage(photo.mainImage).url()} 
+                        alt={photo.alt} 
+                        width={600} 
+                        height={450} 
+                    />
+                ))}
             </div>
         </main>
-
     );
-};
-
-export default Photos;
+}

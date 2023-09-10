@@ -2,6 +2,7 @@ import NavBar from "../../components/NavBar/NavBar";
 import ProjectCard from "../../components/ProjectCard/ProjectCard"
 import styles from './page.module.scss'
 
+
 const Projects: React.FC = () => {
     const projects = [
         {
