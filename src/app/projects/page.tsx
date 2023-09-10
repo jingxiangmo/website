@@ -5,7 +5,7 @@ import styles from './page.module.scss'
 const Projects: React.FC = () => {
     const projects = [
         {
-            "imageUrl": "/path/to/AlphaScript.jpg",
+            "imageUrl": "/images/alphascript.png",
             "title": "AlphaScript",
             "date": "August 2023",
             "headline": "Automating medical transcription with AI.",
@@ -14,7 +14,7 @@ const Projects: React.FC = () => {
                 "github": "#",
                 "website": "#"
             },
-            "tech": ""
+            "tech": []
         },
         {
             "imageUrl": "/path/to/VizArt.jpg",
@@ -26,7 +26,7 @@ const Projects: React.FC = () => {
                 "github": "#",
                 "website": "#"
             },
-            "tech": ""
+            "tech": []
         },
         {
             "imageUrl": "/path/to/Qubit.jpg",
@@ -38,7 +38,7 @@ const Projects: React.FC = () => {
                 "github": "#",
                 "website": "#"
             },
-            "tech": ""
+            "tech": []
         },
         {
             "imageUrl": "/path/to/HoverRobot.jpg",
@@ -50,7 +50,7 @@ const Projects: React.FC = () => {
                 "github": "#",
                 "website": "#"
             },
-            "tech": ""
+            "tech": []
         },
         {
             "imageUrl": "/path/to/Pharmascience.jpg",
@@ -62,7 +62,7 @@ const Projects: React.FC = () => {
                 "github": "#",
                 "website": "#"
             },
-            "tech": ""
+            "tech": []
         },
         {
             "imageUrl": "/path/to/Streamline.jpg",
@@ -74,7 +74,7 @@ const Projects: React.FC = () => {
                 "github": "#",
                 "website": "#"
             },
-            "tech": ""
+            "tech": []
         },
         {
             "imageUrl": "/path/to/BetterMe.jpg",
@@ -86,7 +86,7 @@ const Projects: React.FC = () => {
                 "github": "#",
                 "website": "#"
             },
-            "tech": ""
+            "tech": []
         },
         {
             "imageUrl": "/path/to/McGillProjects.jpg",
@@ -98,7 +98,7 @@ const Projects: React.FC = () => {
                 "github": "#",
                 "website": "#"
             },
-            "tech": ""
+            "tech": []
         },
         {
             "imageUrl": "/path/to/EmailSecretary.jpg",
@@ -110,7 +110,7 @@ const Projects: React.FC = () => {
                 "github": "#",
                 "website": "#"
             },
-            "tech": ""
+            "tech": []
         }
     ]
 

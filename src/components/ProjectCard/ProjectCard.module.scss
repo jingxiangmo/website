@@ -2,11 +2,14 @@
 
 .proj_card {
   align-self: center;
-  width: 100%;
-  margin-bottom: 4rem;
-
   display: flex;
-  flex-direction: row;
+
+  background-color: $card-color;
+
+  width: 60vw;
+
+  padding: 4rem;
+  margin-bottom: 4rem;
 
   .proj_img {
     border-radius: 0.2rem;
