@@ -8,7 +8,7 @@ const font = Manrope({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Jingxiang mo',
-  description: 'Jingxiang Mo website. About, photos, projects.',
+  description: 'Jingxiang Mo website. About, projects, posts, research, designs.',
 }
 
 export default async function RootLayout({
