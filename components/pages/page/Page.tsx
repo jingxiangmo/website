@@ -24,7 +24,7 @@ export function Page({ data }: PageProps) {
           />
         )}
       </div>
-      <div className="absolute left-0 w-screen border-t" />
+      <div className="absolute left-0 w-screen" />
     </div>
   )
 }
