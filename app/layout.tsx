@@ -3,6 +3,8 @@ import 'tailwindcss/tailwind.css'
 import 'styles/index.scss'
 import type { Metadata } from 'next'
 import { Manrope } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/react';
+
 
 const font = Manrope({ subsets: ['latin'] })
 
@@ -21,7 +23,10 @@ export default async function RootLayout({
       lang="en"
       className={font.className}
     >
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   )
 }
