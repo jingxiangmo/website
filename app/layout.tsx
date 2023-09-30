@@ -23,7 +23,7 @@ export default async function RootLayout({
       lang="en"
       className={font.className}
     >
-      <body className={styles}>
+      <body>
         {children}
         <Analytics />
       </body>
