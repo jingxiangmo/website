@@ -1,0 +1,25 @@
+@import 'styles/_variables.scss';
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+body{
+  background-color: $background-color;
+  color: $text-primary;
+}
+
+p:not(:last-child) {
+  margin-bottom: 0.875rem;
+}
+
+ol,
+ul {
+  margin-left: 1rem;
+}
+
+ol {
+  list-style-type: disc;
+}
