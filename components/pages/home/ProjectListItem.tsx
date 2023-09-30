@@ -13,7 +13,7 @@ export function ProjectListItem(props: ProjectProps) {
 
   return (
     <div
-      className={`flex flex-col gap-x-5 p-2 transition hover:bg-gray-50/50 xl:flex-row my-10 shadow-md ${
+      className={`flex flex-col gap-x-5 p-2 transition hover:bg-gray-50/50 xl:flex-row my-10 shadow ${
         odd && 'xl:flex-row-reverse'
       }`}
     >
