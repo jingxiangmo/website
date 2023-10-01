@@ -24,7 +24,7 @@ export function ProjectListItem(props: ProjectProps) {
           classesWrapper="relative aspect-[16/9]"
         />
       </div>
-      <div className="flex xl:w-1/4">
+      <div className="flex xl:w-1/3">
         <TextBox project={project} />
       </div>
     </div>
@@ -36,7 +36,7 @@ function TextBox({ project }: { project: ShowcaseProject }) {
     <div className="relative mt-2 flex w-full flex-col justify-between p-3 xl:mt-0">
       <div>
         {/* Title */}
-        <div className="mb-2 text-2xl font-extrabold tracking-tight md:text-2xl">
+        <div className="mb-2 text-3xl font-extrabold tracking-tight md:text-2xl">
           {project.title}
         </div>
         {/* Overview  */}
