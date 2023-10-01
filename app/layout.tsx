@@ -1,7 +1,5 @@
 import 'tailwindcss/tailwind.css'
 
-// @ts-ignore
-import styles from "styles/index.scss"
 import type { Metadata } from 'next'
 import { Manrope } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/react';
