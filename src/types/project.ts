@@ -3,4 +3,5 @@ export type Project = {
   desc: string;
   link: string;
   tags: string[];
+  img_link: string;
 };

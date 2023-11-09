@@ -14,15 +14,10 @@ const { proj } = Astro.props;
   target="_blank"
   class="max-w-xl rounded-md border border-neutral-800 p-4 transition hover:bg-neutral-800"
 >
-
-  <Picture src={proj.img_link}  alt={proj.name}/>
-  <div class="py-2"></div>
-
-  <div class="text-md text-xl flex items-center gap-1 text-neutral-300">
+  <div class="text-md flex items-center gap-1 text-neutral-300">
     {proj.name}
   </div>
   <div class="py-1"></div>
 
   <div class="text-sm text-neutral-400">{proj.desc}</div>
-
 </a>
