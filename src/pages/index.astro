@@ -1,0 +1,54 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { ViewTransitions } from "astro:transitions";
+import Socials from "@/components/shared/Socials.astro";
+import Contact from "@/components/shared/Contact.astro";
+import ProjectList from "@/components/home/ProjectList.astro";
+import LatestPosts from "@/components/home/LatestPosts.astro";
+---
+
+<Layout title="jingxiangmo.com - home">
+  <ViewTransitions />
+
+  <div class="text-2xl text-neutral-100">Projects in Software, Hardware, Design, and Research</div>
+
+  <div class="py-4"></div>
+
+  <div class="max-w-xl leading-relaxed">
+    I am a student at <a
+      class="text-orange-400 hover:text-neutral-100"
+      href="https://mcgill.ca"
+      target="_blank">McGill University</a
+    >. I am currently leading the product team at <a
+      class="text-orange-400 hover:text-neutral-100"
+      href="https://flojoy.ai"
+      target="_blank">Flojoy</a
+    >, we are a startup building an open-source Python-based alternative to
+    engineering software like LabVIEW. I previously worked at
+    <a
+      class="text-orange-400 hover:text-neutral-100"
+      href="https://www.ciena.com/"
+      target="_blank">Ciena</a
+    > as a Software Engineer on the <a
+      class="text-orange-400 hover:text-neutral-100"
+      href="https://www.encqor.ca/"
+      target="_blank">ENCQOR 5G</a
+    > project.
+  </div>
+
+  <!--<div class="py-4"></div>-->
+
+  <!--<Socials />-->
+
+  <div class="py-4"></div>
+
+  <LatestPosts />
+
+  <div class="py-4"></div>
+
+  <ProjectList />
+
+  <div class="py-4"></div>
+
+  <Contact />
+</Layout>

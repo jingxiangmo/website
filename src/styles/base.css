@@ -1,0 +1,43 @@
+@tailwind base;
+
+.post h1 {
+  @apply my-3 text-3xl font-extrabold text-orange-400 underline decoration-1 underline-offset-8;
+}
+
+.post h2 {
+  @apply mb-2 mt-8 flex gap-1 text-2xl font-bold text-neutral-200;
+}
+
+.post h3 {
+  @apply my-1 flex gap-1 text-xl font-semibold text-neutral-300;
+}
+
+.post p {
+  @apply my-0.5 py-2 text-base leading-relaxed text-neutral-400;
+}
+
+.post li {
+  @apply my-0.5 text-base;
+}
+
+.post ol {
+  @apply list-decimal pl-8 underline-offset-4;
+}
+
+.post ul {
+  @apply list-disc pl-8 underline-offset-4;
+}
+
+.post a {
+  @apply text-neutral-200 underline underline-offset-4;
+}
+
+.post strong {
+  @apply text-neutral-200;
+}
+
+.anchor-link {
+}
+
+@tailwind components;
+@tailwind utilities;

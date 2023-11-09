@@ -1,0 +1,35 @@
+---
+import { getCollection } from "astro:content";
+import PostCard from "@/components/shared/PostCard.astro";
+
+const publishedPostEntries = await getCollection("posts", ({ data }) => {
+  return data.isDraft !== true;
+});
+---
+
+<div>
+  <div class="flex max-w-xl items-center">
+    <div class="text-xl text-neutral-200">Latest posts</div>
+    <div class="grow"></div>
+    <a href="/posts" class="hover:text-neutral-100">View all</a>
+  </div>
+  <div class="py-2"></div>
+  <div class="flex max-w-xl flex-col dfs gap-2">
+    {
+      publishedPostEntries.length !== 0 ? (
+        publishedPostEntries.slice(0,2).map((post) => {
+          return (
+            <PostCard
+              title={post.data.title}
+              date={post.data.date}
+              slug={post.slug}
+              isDraft={post.data.isDraft}
+            />
+          );
+        })
+      ) : (
+        <div>Coming soon...</div>
+      )
+    }
+  </div>
+</div>

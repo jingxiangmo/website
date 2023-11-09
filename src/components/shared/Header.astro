@@ -1,0 +1,68 @@
+---
+import { personalData } from "@/data/personal";
+import { getBaseRouteName } from "@/utils/getBaseRouteName";
+
+const currentRoute = Astro.url.pathname;
+
+type Route = {
+  name: string;
+  path: string;
+};
+
+const routes: Route[] = [
+  {
+    name: "Home",
+    path: "/",
+  },
+  {
+    name: "Projects",
+    path: "/projects",
+  },
+  {
+    name: "Posts",
+    path: "/posts",
+  },
+];
+---
+
+<div>
+  <a href={`mailto:${personalData.email}`} class="hover:text-neutral-100"
+    >{personalData.email}</a
+  >
+  <div class="py-1"></div>
+  <div class="flex max-w-xl gap-2">
+    {
+      routes.map((route, idx) => {
+        if (idx === routes.length - 1) {
+          return (
+            <a
+              href={route.path}
+              class:list={{
+                ["hover:text-neutral-100"]: true,
+                ["text-neutral-100"]:
+                  getBaseRouteName(currentRoute) === route.path,
+              }}
+            >
+              {route.name}
+            </a>
+          );
+        }
+        return (
+          <>
+            <a
+              href={route.path}
+              class:list={{
+                ["hover:text-neutral-100"]: true,
+                ["text-neutral-100"]:
+                  getBaseRouteName(currentRoute) === route.path,
+              }}
+            >
+              {route.name}
+            </a>
+            <div>/</div>
+          </>
+        );
+      })
+    }
+  </div>
+</div>
