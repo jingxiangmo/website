@@ -10,7 +10,11 @@ import { astroImageTools } from "astro-imagetools";
 
 export default defineConfig({
   output: "server",
-  adapter: vercel({ webAnalytics: true }),
+  adapter: vercel({
+    webAnalytics: {
+      enabled: true,
+    },
+  }),
   markdown: {
     remarkPlugins: [remarkToc],
     rehypePlugins: [
