@@ -1,4 +1,4 @@
-import { defineCollection } from "astro:content";
+import { defineCollection} from "astro:content";
 import { Post } from "@/types/post";
 
 const postCollection = defineCollection({

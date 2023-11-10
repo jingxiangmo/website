@@ -1,6 +1,7 @@
 ---
 import type { Project } from "@/types/project";
-import { Img } from "astro-imagetools/components";
+import { Image } from 'astro:assets';
+import test from 'src/images/flojoy_robot.png';
 
 type Props = {
   proj: Project;
@@ -16,7 +17,7 @@ const { proj } = Astro.props;
 >
 
   <!--LINK PATH: src/images -->
-  <Img src={`src/images/${proj.img_link}`} alt={proj.name}/>
+  <Image src={test} alt={proj.name}/>
 
   <div class="py-2"></div>
 
