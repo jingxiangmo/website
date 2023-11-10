@@ -21,10 +21,17 @@ export const projectsData: Project[] = [
   },
   {
     name: "AlphaScript AI",
-    desc: "On-premise, privacy-centric medical transcription and summarization software for doctors. Local server and local fine-tuned LLM.",
+    desc: "On-premise, privacy-centric medical transcription and summarization software for doctors. Local server architecture and local LLM inference.",
     link: "",
     tags: ["",""],
     img_link: "alphascript.png",
+  },
+  {
+    name: "VizArt Air Drawing",
+    desc: "An awards winning game based on drawing with computer vision. Captures joint coordinates and uses vector algorithms for gesture recognition.",
+    link: "https://vizart.tech/create",
+    tags: ["",""],
+    img_link: "vizart.png",
   },
   {
     name: "E-commerce Platform @ Qubit (Coveo)",
@@ -39,14 +46,6 @@ export const projectsData: Project[] = [
     link: "https://customer-ofour.web.app/",
     tags: ["",""],
     img_link: "streamline.png",
-  },
-  {
-    name: "VizArt Air Drawing",
-    desc: "An awards winning game based on drawing with computer vision. Captures joint coordinates, renders on\n" +
-        "screen using CanvasRenderingContext2D, and employs vector algorithms for gesture recognition.",
-    link: "https://vizart.tech/create",
-    tags: ["",""],
-    img_link: "vizart.png",
   },
   {
     name: "Cooperative & Intelligent Swarm Robotics Research",
