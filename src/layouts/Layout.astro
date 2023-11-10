@@ -1,6 +1,7 @@
 ---
 import Header from "@/components/shared/Header.astro";
 import '@fontsource/manrope';
+import "@fontsource/open-sans";
 import "../styles/base.css";
 
 type Props = {
@@ -32,7 +33,7 @@ const { title } = Astro.props;
 
   <style is:global>
     html {
-      font-family: "SF Pro Text", serif;
+      font-family: "SF Pro Text", "Open Sans", serif;
     }
   </style>
 </html>
