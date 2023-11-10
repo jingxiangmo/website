@@ -8,7 +8,6 @@ import react from "@astrojs/react";
 import vercel from "@astrojs/vercel/serverless";
 import { astroImageTools } from "astro-imagetools";
 
-// https://astro.build/config
 export default defineConfig({
   output: "server",
   adapter: vercel({ webAnalytics: true }),
