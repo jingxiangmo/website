@@ -6,14 +6,12 @@ import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import mdx from "@astrojs/mdx";
 import react from "@astrojs/react";
 import { astroImageTools } from "astro-imagetools";
-import vercelEdge from '@astrojs/vercel/edge';
-
 import vercel from "@astrojs/vercel/serverless";
 
 // https://astro.build/config
 export default defineConfig({
   output: "server",
-  adapter: vercelEdge({ webAnalytics: true }),
+  adapter: vercel({ webAnalytics: true }),
   markdown: {
     remarkPlugins: [remarkToc],
     rehypePlugins: [
