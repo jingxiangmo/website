@@ -5,8 +5,8 @@ import rehypeSlug from "rehype-slug";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import mdx from "@astrojs/mdx";
 import react from "@astrojs/react";
-import { astroImageTools } from "astro-imagetools";
 import vercel from "@astrojs/vercel/serverless";
+import { astroImageTools } from "astro-imagetools";
 
 // https://astro.build/config
 export default defineConfig({
