@@ -1,7 +1,6 @@
 ---
 import Header from "@/components/shared/Header.astro";
-
-import "@fontsource/open-sans";
+import '@fontsource/manrope';
 import "../styles/base.css";
 
 type Props = {
@@ -19,13 +18,13 @@ const { title } = Astro.props;
     <meta name="viewport" content="width=device-width" />
     <link
       rel="icon"
-      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💫</text></svg>"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌎</text></svg>"
     />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
   </head>
 
-  <body class="container mx-auto bg-neutral-900 p-8 text-sm text-neutral-400">
+  <body class="container mx-auto bg-neutral-900 p-8 text-[14px] text-neutral-400">
     <Header />
     <div class="py-4"></div>
     <slot />
@@ -33,7 +32,7 @@ const { title } = Astro.props;
 
   <style is:global>
     html {
-      font-family: "Open Sans" cursive;
+      font-family: "SF Pro Text", serif;
     }
   </style>
 </html>
