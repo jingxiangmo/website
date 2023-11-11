@@ -192,9 +192,9 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"photography.md": {
-	id: "photography.md";
-  slug: "photography";
+"photos.md": {
+	id: "photos.md";
+  slug: "photos";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
