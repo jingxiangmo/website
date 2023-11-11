@@ -14,7 +14,7 @@ TEMPLATE
 export const projectsData: Project[] = [
   {
     name: "Flojoy Robotics",
-    desc: "A visual programming software for controlling industrial robotic arms with high precision, trajectory control, and server connectivity. " ,
+    desc: "A visual programming software for high-precision control of industrial robotic arms, featuring advanced trajectory planning and robust server integration" ,
     link: "https://flojoy.ai",
     tags: [],
     img_link: "flojoy_robot.png",
