@@ -22,7 +22,7 @@ export const projectsData: Project[] = [
   {
     name: "AlphaScript AI",
     desc: "On-premise, privacy-centric medical transcription and summarization software for doctors. Local server architecture and local LLM inference.",
-    link: "",
+    link: "https://github.com/15195268-Canada-Inc/AlphaScript",
     tags: ["",""],
     img_link: "alphascript.png",
   },
