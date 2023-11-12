@@ -20,7 +20,7 @@ export const projectsData: Project[] = [
     img_link: "flojoy_robot.png",
   },
   {
-    name: "AlphaScript AI",
+    name: "AlphaScript",
     desc: "On-premise, privacy-centric medical transcription and summarization software for doctors. Local server architecture and local LLM inference.",
     link: "https://github.com/15195268-Canada-Inc/AlphaScript",
     tags: ["",""],
