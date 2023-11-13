@@ -4,8 +4,8 @@ date: 2023-11-09
 tags: [""]
 ---
 
-![marathon](/images/posts/marathon.jpg)
+![marathon](/images/posts/marathon.webp)
 
-![](/images/posts/osaka.jpeg)
+![](/images/posts/osaka.webp)
 
-![](/images/posts/robot_demo.jpeg)
+![](/images/posts/robot_demo.webp)
