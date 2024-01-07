@@ -1,7 +1,7 @@
 @tailwind base;
 
 .post h1 {
-  @apply my-3 text-3xl font-extrabold text-white underline decoration-1 underline-offset-8;
+  @apply my-3 text-3xl font-extrabold underline decoration-1 underline-offset-8;
 }
 
 .post h2 {
@@ -13,7 +13,7 @@
 }
 
 .post p {
-  @apply my-0.5 py-2 text-base leading-relaxed text-neutral-400;
+  @apply my-0.5 py-2 text-base leading-relaxed text-neutral-700;
 }
 
 .post li {
@@ -28,15 +28,15 @@
   @apply list-disc pl-8 underline-offset-4;
 }
 
-.post a {
-  @apply text-neutral-200 underline underline-offset-4;
-}
-
 .post strong {
   @apply text-neutral-200;
 }
 
 .anchor-link {
+}
+
+.home a {
+  @apply underline underline-offset-2 hover:bg-neutral-200 px-1 py-0.5 transition duration-300
 }
 
 @tailwind components;

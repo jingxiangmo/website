@@ -29,7 +29,7 @@ const socials: Social[] = [
             <a
               href={social.link}
               target="_blank"
-              class="hover:text-neutral-100"
+              class="text-neutral-700 hover:bg-neutral-200 px-1 py-0.5 transition duration-300"
             >
               {social.name}
             </a>
@@ -38,7 +38,7 @@ const socials: Social[] = [
         );
       } else {
         return (
-          <a href={social.link} class="hover:text-neutral-100" target="_blank">
+          <a href={social.link} class="text-neutral-700 hover:bg-neutral-200 px-1 py-0.5 transition duration-300" target="_blank">
             {social.name}
           </a>
         );
