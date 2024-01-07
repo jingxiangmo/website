@@ -13,8 +13,15 @@ TEMPLATE
 
 export const projectsData: Project[] = [
   {
+    name: "ROS Robot Manipulator Control and Planning",
+    desc: "ROS C++ kinematics and dynamics controller, cubic polynomial trajectory planner, and action client/server built from scratch for robot manipulator control." ,
+    link: "",
+    tags: [],
+    img_link: "ros-manipulator",
+  },
+  {
     name: "Flojoy Robotics",
-    desc: "A visual programming software for high-precision control of industrial robotic arms, featuring advanced trajectory planning and robust server integration" ,
+    desc: "A visual programming software for high-precision control of industrial robotic arms, featuring advanced trajectory planning and robust server integration." ,
     link: "https://flojoy.ai",
     tags: [],
     img_link: "flojoy_robot",
