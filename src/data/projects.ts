@@ -13,7 +13,7 @@ TEMPLATE
 
 export const projectsData: Project[] = [
   {
-    name: "ROS Robot Manipulator Control and Planning",
+    name: "ROS Robot Manipulator Controller and Planner",
     desc: "ROS C++ kinematics and dynamics controller, cubic polynomial trajectory planner, and action client/server built from scratch for robot manipulator control." ,
     link: "",
     tags: [],
