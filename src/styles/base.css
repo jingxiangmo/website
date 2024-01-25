@@ -5,15 +5,15 @@
 }
 
 .post h2 {
-  @apply mb-2 mt-8 flex gap-1 text-2xl font-bold text-neutral-200;
+  @apply mb-2 mt-8 flex gap-1 text-xl font-bold;
 }
 
 .post h3 {
-  @apply my-1 flex gap-1 text-xl font-semibold text-neutral-300;
+  @apply my-1 flex gap-1 text-xl font-semibold;
 }
 
 .post p {
-  @apply my-0.5 py-2 text-base leading-relaxed text-neutral-700;
+  @apply my-0.5 py-2 text-base leading-relaxed;
 }
 
 .post li {

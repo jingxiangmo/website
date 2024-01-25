@@ -35,7 +35,7 @@ export default defineConfig({
             children: [
               {
                 type: "text",
-                value: "#",
+                value: "",
               },
             ],
           },
