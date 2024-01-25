@@ -4,7 +4,7 @@ date: 2024-01-25
 tags: [""]
 ---
 
-Over the last year, I’ve spent a lot of time pushing myself outside of my comfort zone by skydiving from a plane, running a marathon, and solo backpacking around the world. David Goggins [1] has been a role model for me, and here are some of the main techniques I’ve learned from his books and podcasts to help me overcome hard things.
+Since last year, I’ve spent a lot of time pushing myself outside of my comfort zone by skydiving from a plane, running a marathon, and solo backpacking around the world. David Goggins [1] has been a role model for me, and here are some of the main techniques I’ve learned from his books and podcasts to help me overcome hard things.
 
 **1. Eat an elephant, one bite at a time.**
 Some goals seem impossible, but you can break them down into manageable chunks. For example, you can break down a 42.2km marathon into four 10km segments and focus on completing each. This technique could also be applied to big projects or difficult programming/math problems.
