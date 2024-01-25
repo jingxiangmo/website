@@ -10,7 +10,7 @@ Over the last year, I’ve spent a lot of time pushing myself outside of my comf
 Some goals seem impossible, but you can break them down into manageable chunks. For example, you can break down a 42.2km marathon into four 10km segments and focus on completing each. This technique could also be applied to big projects or difficult programming/math problems.
 
 **2. Mental visualization.**
-Before a big presentation, competition, or event, I visualize the potential I will face and myself succeeding. This will boost my confidence and help me perform at my best.
+Before a big presentation, competition, or event, I visualize the potential problems I will face and myself succeeding. This will boost my confidence and help me perform at my best.
 
 **3. Positive self-talk.**
 In a difficult situation, it’s easy to feel like giving up. But you can overcome these negative emotions by instilling positive self-talk. Some phrases I repeat to myself are “I can do this” or “I will dominate this.” Changing my self-talk usually pushes me to go further and not give up.
