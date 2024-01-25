@@ -28,10 +28,6 @@
   @apply list-disc pl-8 underline-offset-4;
 }
 
-.post strong {
-  @apply text-neutral-200;
-}
-
 .anchor-link {
 }
 
