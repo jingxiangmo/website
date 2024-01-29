@@ -8,12 +8,12 @@ In 2023, I read 25 books. I wish I was able to devote more time to reading, but 
 
 ## Science Fiction
 
-![foundation.png](/images/posts/foundation.png)
+![marathon](/images/posts/foundation.png)
 
 **_Foundation_** series by Isaac Asimov. Amazing world-building and beautifully written. I blazed through the entire series (5 books) in about a month. Lots of interesting analogies and parallels to our world.
 
 ## Philosophy
-![siddhartha.png](/images/posts/siddhartha.png)
+![siddhartha](/images/posts/siddhartha.png)
 **_Siddhartha_** by Hermann Hesse. This book is a meditation journey in itself, and I’m still reflecting on some of the lessons I’ve learned in the book.
 
 ## Self Help
