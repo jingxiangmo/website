@@ -7,6 +7,7 @@ export const Post = z.object({
   isDraft: z.boolean().default(false),
   date: z.date(),
   author: z.string().default("Jingxiang Mo"),
+  project: z.boolean().default(false)
 });
 
 export type Post = z.infer<typeof Post>;
