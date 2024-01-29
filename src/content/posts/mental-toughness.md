@@ -4,6 +4,9 @@ date: 2024-01-25
 tags: [""]
 ---
 
+<img src="https://cln.sh/RDbypV3h/download" alt="">
+
+
 Since last year, I’ve spent a lot of time pushing myself outside of my comfort zone by skydiving from a plane, running a marathon, and solo backpacking around the world. David Goggins [1] has been a role model for me, and here are some of the main techniques I’ve learned from his books and podcasts to help me overcome hard things.
 
 **1. Eat an elephant, one bite at a time.**
