@@ -9,7 +9,7 @@
 }
 
 .post h1 {
-  @apply my-3 text-3xl font-extrabold underline decoration-1 underline-offset-8;
+  @apply my-3 text-4xl font-extrabold underline decoration-1 underline-offset-8;
 }
 
 .post h2 {

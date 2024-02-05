@@ -17,7 +17,7 @@ const publishedPostEntries = await getCollection("posts", ({ data }) => {
   <div class="flex max-w-xl flex-col dfs gap-2">
     {
       publishedPostEntries.length !== 0 ? (
-        publishedPostEntries.slice(0,2).map((post) => {
+        publishedPostEntries.sort((a, b) => new Date(b.data.date) - new Date(a.data.date)).slice(0,2).map((post) => {
           return (
             <PostCard
               title={post.data.title}
