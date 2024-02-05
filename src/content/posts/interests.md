@@ -50,7 +50,11 @@ I’m constantly learning how to learn, and I’m interested in engineering, com
 
 Endurance sports help me think and figure out who I am. Extreme sports help me overcome fears. I’ve run a full marathon and multiple half marathons, skydiving from 13,000ft, skied through forests, rock bouldered on walls, and dived in oceans.
 
+## Community Building
+> "If You want to Walk Fast, Walk alone. But if you want to Walk far, walk together" 
+> -- Ratan Tata
 
+I've been building various communities for meeting people interested in software, robotics, chess, traveling, and etc. The few major communities I created have a combined 1200+ people.  
 
 ## Electronics
 ![](https://cln.sh/QJhVYqbr/download)
