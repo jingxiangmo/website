@@ -64,7 +64,7 @@ I wasn’t all that interested in traveling until COVID-19 hit and I was stuck a
 ## Photography
 ![](https://pbs.twimg.com/media/FxN80B7aUAA6Nmx.jpg)
 
-When I was backpacking through Japan, I accidentally came across Mr. [Kai Fusayoshi](https://www.huckmag.com/article/kai-fusayoshi-reflects-on-a-life-shooting-the-streets-of-kyoto)’s bar and photos archive called Hachimonjiya. [^7] He was in his 70s and we had many chats about photography and his life. He’s taught me the difference between “taking pictures” and photography. Photography, as I’ve come to understand, is an evaluation of my own judgment of beauty. These days, I bring my parents’ old DSLR everywhere when I’m travelling to capture beautiful moments I see.
+When I was backpacking through Japan, I accidentally came across Mr. [Kai Fusayoshi](https://www.huckmag.com/article/kai-fusayoshi-reflects-on-a-life-shooting-the-streets-of-kyoto)’s bar and photos archive called Hachimonjiya. He is in his late 70s and we had many chats about photography and his life. He’s taught me the difference between “taking pictures” and photography. Photography, as I’ve come to understand, is an evaluation of my own judgment of beauty. These days, I bring my parents’ old DSLR everywhere when I’m travelling to capture beautiful moments I see.
 
 
 ## Talking to People
