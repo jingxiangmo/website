@@ -1,11 +1,19 @@
 @tailwind base;
 
+.link {
+  @apply underline decoration-dotted underline-offset-4 hover:decoration-solid;
+}
+
+.post a {
+  @apply underline decoration-dotted underline-offset-4 hover:decoration-solid;
+}
+
 .post h1 {
   @apply my-3 text-3xl font-extrabold underline decoration-1 underline-offset-8;
 }
 
 .post h2 {
-  @apply mb-2 mt-8 flex gap-1 text-xl font-bold underline;
+  @apply mb-2 mt-8 flex gap-1 text-2xl font-bold;
 }
 
 .post h3 {
@@ -26,13 +34,6 @@
 
 .post ul {
   @apply list-disc pl-8 underline-offset-4;
-}
-
-.anchor-link {
-}
-
-.home a {
-  @apply underline underline-offset-2 hover:bg-neutral-200 px-1 py-0.5 transition duration-300
 }
 
 @tailwind components;

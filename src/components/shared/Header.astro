@@ -26,7 +26,7 @@ const routes: Route[] = [
 ---
 
 <div>
-  <a href={`mailto:${personalData.email}`} class="hover:bg-neutral-200 transition duration-300 px-1 py-0.5"
+  <a href={`mailto:${personalData.email}`} class="px-1 py-0.5"
     >{personalData.email}</a
   >
   <div class="py-1"></div>
@@ -38,8 +38,8 @@ const routes: Route[] = [
             <a
               href={route.path}
               class:list={{
-                ["hover:bg-neutral-200 transition duration-300 px-0.5 py-0.5"]: true,
-                ["text-neutral-400 underline"]:
+                ["px-0.5 py-0.5"]: true,
+                ["text-neutral-400 underline underline-offset-2"]:
                   getBaseRouteName(currentRoute) === route.path,
               }}
             >
@@ -52,7 +52,7 @@ const routes: Route[] = [
             <a
               href={route.path}
               class:list={{
-                ["hover:bg-neutral-200 transition duration-300 px-1 py-0.5"]: true,
+                ["underline-offset-2 px-1 py-0.5"]: true,
                 ["text-neutral-400 underline"]:
                   getBaseRouteName(currentRoute) === route.path,
               }}
