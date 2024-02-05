@@ -10,7 +10,7 @@ tags: [""]
 </div>
 
 
-In 2023, I read 25 books. I wish I was able to devote more time to reading, but there were just so many distractions. Here are some of my favorite books I read in 2023:
+In 2023, I read 25 books. Here are some of my favorite books I read in 2023:
 
 ## Science Fiction
 **_Foundation_** series by Isaac Asimov. Amazing world-building and beautifully written. I blazed through the entire series (5 books) in about a month. Lots of interesting analogies and parallels to our world.
