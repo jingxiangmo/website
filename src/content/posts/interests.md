@@ -20,9 +20,9 @@ This is one of the most important problems in the world. I’m particularly inte
 
 ![](https://cln.sh/QN4c1rR0/download)
 
-Many jobs are not suitable for humans and should not be done by humans. The International Labour Organization (ILO) estimates that [2.3 million people die from work accidents or diseases every year]( https://www.ilo.org/moscow/areas-of-work/occupational-safety-and-health/WCMS_249278/lang--en/index.htm#:~:text=The%20ILO%20estimates%20that%20some,6000%20deaths%20every%20single%20day.).That’s over 6000 deaths every day!
+Many jobs are not suitable for humans and should not be done by humans. The International Labour Organization (ILO) estimates that [2.3 million people die from work accidents or diseases every year]( https://www.ilo.org/moscow/areas-of-work/occupational-safety-and-health/WCMS_249278/lang--en/index.htm#:~:text=The%20ILO%20estimates%20that%20some,6000%20deaths%20every%20single%20day.). That’s over 6000 deaths every day!
 
-There are many high fatalities in industries such as logging, fishing, mining, deep sea diving, and manufacturing that are preventable with the help of robotics. Though there’s a lot of hype for fully autonomous robots, I believe this problem should be solved by human-controlled methods like [telerobots](https://en.wikipedia.org/wiki/Telerobotics). In 10 years, I want to help create a world where people look back and say: “wow, those jobs were done by people!”
+There are many fatalities in high risk industries such as logging, fishing, mining, deep sea diving, and manufacturing that are preventable with the help of robotics. Though there’s a lot of hype for fully autonomous robots, I believe this problem should be solved by human-controlled methods like [telerobots](https://en.wikipedia.org/wiki/Telerobotics). I want to help create a world where people look back and say: “wow, those jobs were done by people!”
 
 I believe robots will soon become more and more like our companions that help us “get things done” in the physical world like software in the virtual world today. I’m particularly interested in [modular robots](https://en.wikipedia.org/wiki/Self-reconfiguring_modular_robot), [soft robots](https://en.wikipedia.org/wiki/Soft_robotics), and general autonomous robots that would allow physical manipulation of our world at scale.
 
@@ -34,27 +34,29 @@ Towards this vision, I’ve worked on [making industrial robotics simple to use 
 
 ![](https://cln.sh/L5K6fKbH/download)
 
-I have ADHD and probably mild dyslexia. I’ve had a lot of difficulties growing up in the traditional education framework. Since grade 10, I’ve been skipping classes and self-learning using techniques such as mind map (https://heptabase.com), spaced repetition (https://ankiweb.net/decks), and YouTube. I believe education systems imposed by most governments are misaligned with individual interests (health, wealth, happiness, and freedom) and are incentivized to create obedient citizens. This made sense during the Industrial Revolution, but it’s no longer the case. The SAT, Gaokao, and other entrance exams that determine many peoples’ lives are probably better measurements of how much one can take bullshit and be obedient than the capabilities of the individual. Many university programs are full of fluff and stretched out to fill in 4 years of expensive tuition. Education should be liberation, not torture.
+I have ADHD and probably mild dyslexia. I’ve had a lot of difficulties growing up in the traditional education framework. Since grade 10, I’ve been skipping classes and self-learning using techniques such as mind map (https://heptabase.com), spaced repetition (https://ankiweb.net/decks), and YouTube. 
+
+I believe education systems imposed by most governments are misaligned with individual interests (health, wealth, happiness, and freedom) and are incentivized to create obedient citizens. The SAT, Gaokao, and other entrance exams that determine many peoples’ lives are probably better measurements of how much one can take bullshit and be obedient than the capabilities of the individual. Many university programs are full of fluff and stretched out to fill in 4 years of expensive tuition. Education should be liberation, not torture.
 
 I’m constantly learning how to learn, and I’m interested in engineering, computer science, history, physics, and psychology. I’m also researching ways to create and adopt an education system/framework teaching people to be curious, healthy, happy, and wealthy. I have some thoughts on this topic and am experimenting with ideas on how to align education systems with the interests of individuals.
 
 
 ## Rationality
 
-[Rationality](https://www.lesswrong.com/posts/RcZCwxFiZzE6X7nsv/what-do-we-mean-by-rationality-1) is about forming true beliefs and making better decisions. Like most people, I had a pretty bad model of the world. I’m grateful for Eliezer Yudkowsky’s writings on Lesswrong and his book Harry Potter and the Methods of Rationality for introducing me to thinking scientifically and rationally. I’m actively learning to improve my epistemic and instrumental rationality.
+[Rationality](https://www.lesswrong.com/posts/RcZCwxFiZzE6X7nsv/what-do-we-mean-by-rationality-1) is about forming true beliefs and making better decisions. I’m grateful for Eliezer Yudkowsky’s writings on Lesswrong and his book Harry Potter and the Methods of Rationality for introducing me to thinking scientifically and rationally. I’m actively learning to improve my epistemic and instrumental rationality to have a better model and understanding of the world.
 
 
 ## Endurance/Extreme Sports
 
 ![](https://cln.sh/r2Dvms46/download)
 
-Endurance sports help me think and figure out who I am. Extreme sports help me overcome fears. I’ve run a full marathon and multiple half marathons, skydiving from 13,000ft, skied through forests, rock bouldered on walls, and dived in oceans.
+Endurance sports help me think and figure out who I am. Extreme sports help me overcome fears. I’ve run a full marathon and multiple half marathons, skydived from 13,000ft, skied through forests, and dived in oceans.
 
 ## Community Building
 "If You want to Walk Fast, Walk alone. But if you want to Walk far, walk together"
     -- Ratan Tata
 
-I've been building various online and in-person communities for meeting people interested in [software](https://jingxiangmo.notion.site/McGill-Projects-Public-Roadmap-e558e3c41f9e4069a152facbedae4d5b?pvs=4), robotics, chess, traveling, and etc. The few major communities I created have a combined 1200+ people.  
+I've been building various online and in-person communities for meeting people interested in [software](https://jingxiangmo.notion.site/McGill-Projects-Public-Roadmap-e558e3c41f9e4069a152facbedae4d5b?pvs=4), robotics, chess, and traveling. The few major communities I created have a combined 1200+ people.  
 
 ## Electronics
 ![](https://cln.sh/QJhVYqbr/download)
