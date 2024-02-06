@@ -51,15 +51,15 @@ I’m constantly learning how to learn, and I’m interested in engineering, com
 Endurance sports help me think and figure out who I am. Extreme sports help me overcome fears. I’ve run a full marathon and multiple half marathons, skydiving from 13,000ft, skied through forests, rock bouldered on walls, and dived in oceans.
 
 ## Community Building
-> "If You want to Walk Fast, Walk alone. But if you want to Walk far, walk together" 
-> -- Ratan Tata
+    "If You want to Walk Fast, Walk alone. But if you want to Walk far, walk together"
+    -- Ratan Tata
 
-I've been building various communities for meeting people interested in software, robotics, chess, traveling, and etc. The few major communities I created have a combined 1200+ people.  
+I've been building various online and in-person communities for meeting people interested in software, robotics, chess, traveling, and etc. The few major communities I created have a combined 1200+ people.  
 
 ## Electronics
 ![](https://cln.sh/QJhVYqbr/download)
 
-I started building with Legos when I was 5 and quickly moved to electronics when I was around 7 years old to build racing cars, drones, Arduino circuits, magnetic doors, bascule bridges, and other fun electronics projects. But by the time I was 11, I got crushed by the Chinese education system and my parents took away all my “toys” so I could “learn more math” (i.e., grinding through basic multiplications all day). Since last year, I’ve been getting into electronics again! I’m currently working on an FPV racing car from scratch learning electrical engineering for fun. I’m also interested in building an FPV drone for competitions.
+I started building with Legos when I was 5 and quickly moved to electronics when I was around 7 years old to build racing cars, drones, Arduino circuits, magnetic doors, bascule bridges, and other fun electronics projects. But by the time I was 11, I got crushed by the Chinese education system and my parents took away all my “toys” so I could “learn more math” (i.e., grinding through basic multiplications all day). Since last year, I’ve been getting into electronics again! I’m currently working on an FPV racing car from scratch, learning electrical engineering for fun. I’m also interested in building an FPV drone for competitions.
 
 
 ## Backpacking
@@ -72,4 +72,4 @@ When I was backpacking through Japan, I accidentally came across Mr. [Kai Fusayo
 
 
 ## Talking to People
-I love talking to people and hearing their thoughts and stories! If you’re interested in any of the topics above, have some objections/ideas, or want to share something with me, please don’t hesitate to comment below or send me an email! I would love to discuss with you more o in more detail with my experiences.
+I love talking to people and hearing their thoughts and stories! If you’re interested in any of the topics above, have some objections/ideas, or want to share something with me, please don’t hesitate to comment below or send me an email! I would love to discuss with you more in more detail with my experiences.
