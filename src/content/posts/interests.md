@@ -54,7 +54,7 @@ Endurance sports help me think and figure out who I am. Extreme sports help me o
 "If You want to Walk Fast, Walk alone. But if you want to Walk far, walk together"
     -- Ratan Tata
 
-I've been building various online and in-person communities for meeting people interested in software, robotics, chess, traveling, and etc. The few major communities I created have a combined 1200+ people.  
+I've been building various online and in-person communities for meeting people interested in [software](https://jingxiangmo.notion.site/McGill-Projects-Public-Roadmap-e558e3c41f9e4069a152facbedae4d5b?pvs=4), robotics, chess, traveling, and etc. The few major communities I created have a combined 1200+ people.  
 
 ## Electronics
 ![](https://cln.sh/QJhVYqbr/download)
