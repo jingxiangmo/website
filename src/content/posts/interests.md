@@ -51,7 +51,7 @@ I’m constantly learning how to learn, and I’m interested in engineering, com
 Endurance sports help me think and figure out who I am. Extreme sports help me overcome fears. I’ve run a full marathon and multiple half marathons, skydiving from 13,000ft, skied through forests, rock bouldered on walls, and dived in oceans.
 
 ## Community Building
-    "If You want to Walk Fast, Walk alone. But if you want to Walk far, walk together"
+"If You want to Walk Fast, Walk alone. But if you want to Walk far, walk together"
     -- Ratan Tata
 
 I've been building various online and in-person communities for meeting people interested in software, robotics, chess, traveling, and etc. The few major communities I created have a combined 1200+ people.  
@@ -60,7 +60,6 @@ I've been building various online and in-person communities for meeting people i
 ![](https://cln.sh/QJhVYqbr/download)
 
 I started building with Legos when I was 5 and quickly moved to electronics when I was around 7 years old to build racing cars, drones, Arduino circuits, magnetic doors, bascule bridges, and other fun electronics projects. But by the time I was 11, I got crushed by the Chinese education system and my parents took away all my “toys” so I could “learn more math” (i.e., grinding through basic multiplications all day). Since last year, I’ve been getting into electronics again! I’m currently working on an FPV racing car from scratch, learning electrical engineering for fun. I’m also interested in building an FPV drone for competitions.
-
 
 ## Backpacking
 I wasn’t all that interested in traveling until COVID-19 hit and I was stuck at home for 2 years. I realized my deathbed regret would be dying without visiting many places. I’ve been fortunate to have been to Canada (I’m Canadian!), China, the USA, Japan, the UK, France, the Netherlands, Korea, Italy, and Singapore. During my backpacking trip around the world in 2023, I was touched by the kindness, passion, and troubles of people of every race, nationality, and social status around the world. Humanity is truly amazing and beautiful. This year (2024), I plan to visit Malaysia, Thailand, Indonesia, India, Vietnam, and the Philippines.
