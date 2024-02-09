@@ -1,5 +1,4 @@
 import { z } from "astro:content";
-
 export const Post = z.object({
   title: z.string(),
   tags: z.array(z.string()),
